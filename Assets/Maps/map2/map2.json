@@ -1,0 +1,21 @@
+{
+  "name": "Full Map Name",
+  "authors": [
+    {
+      "name": "goose!",
+      "discord": "author1",
+      "avatarurl": "https://example.com/image"
+    },
+    {
+      "name": "Zucchini",
+      "discord": "author2",
+      "avatarurl": "https://example.com/image"
+    }
+  ],
+  "imageurl": "", 
+  "gamebananaurl": "gamebananaurl",
+  "description": "very short descriptiondescriptiondescription",
+  "difficulty": "grandmaster",
+  "releaseAt": 1718316000,
+  "isCurrent": false
+}

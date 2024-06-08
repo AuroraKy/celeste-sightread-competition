@@ -1,0 +1,6 @@
+`releaseAt` expects a UNIX TIMESTAMP (https://www.unixtimestamp.com/) aka big number
+
+if releaseAt is set in mapname.json everything besides author and image is ignored and the "upcoming" template is used, do not have to fill in anything else.
+Standard image is "Assets/none.png".
+
+Otherwise it is populated with data in the other fields and displayed in "Current Maps" or "Previous Maps" depending on isCurrent flag

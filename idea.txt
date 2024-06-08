@@ -1,0 +1,13 @@
+https://iwannatwourney.com
+
+the website will get updated twice a week: (Thursday + Saturday?)
+	Implement leaderboards for previous map (import & translate a .csv file with 3 strings)
+	Create new map rectangle with placeholder/secretive text, image, and countdown
+	Show/unhide "Upcoming Maps" header
+	Place the new map under "Upcoming Maps" header
+	Add a mapper to the contributors tab
+Update correct info for new map
+	Add a download link/button
+	Move new map up so that it is under "Current Maps" header
+	Move old map down to under "Released Maps" header
+	Hide "Upcoming Maps" header / section

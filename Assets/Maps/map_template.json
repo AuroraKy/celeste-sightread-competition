@@ -1,0 +1,21 @@
+{
+  "name": "Full Map Name",
+  "authors": [
+    {
+      "name": "Author1",
+      "discord": "author1",
+      "avatarurl": "https://example.com/image"
+    },
+    {
+      "name": "Author2",
+      "discord": "author2",
+      "avatarurl": "https://example.com/image"
+    }
+  ],
+  "imageurl": "Assets/upcoming.png", 
+  "gamebananaurl": "gamebananaurl",
+  "description": "short description",
+  "difficulty": "grandmaster",
+  "releaseAt": 1717792411,
+  "isCurrent": false
+}

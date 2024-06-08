@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="Assets/favicon/site.webmanifest">
+<style>
+    @font-face {
+        font-family: Renogare;
+        src:
+            url("https://everestapi.github.io/fonts/Renogare-Regular.woff") format("woff"),
+            url("https://everestapi.github.io/fonts/Renogare-Regular.otf") format("opentype");
+    }
+
+    body {
+        font-family: Renogare;
+        background: rgb(35,108,187);
+        background: linear-gradient(180deg, rgba(35,108,187,1) 0%, rgba(109,230,251,1) 78%); 
+        background-attachment: fixed;
+    }
+
+    .main, .game, .credit {
+        background-color: #FFC89F;
+        background-clip: border-box;
+        border-width: 3px;
+        border-radius: 5px;
+        border-color: black;
+        border-style: solid;
+        filter: drop-shadow(0px 3px 0px #00000030);
+        min-width: 150px;
+    }
+
+    li > .tab-button, li > .tab-button:focus {
+        color: black;
+        border-width: 3px !important;
+        border-radius: 5px !important;
+        border-color: black !important;
+        border-style: solid  !important;
+        background-color: #FFC89F !important;
+        filter: drop-shadow(0px 2px 0px #00000030)
+    }
+
+    li > .tab-button.active {
+        color:black !important;
+        background-color: #ce926b !important;
+        filter: none;
+        translate: 0px 2px;
+    }
+
+    .tab-button:hover {
+        background-color: #dca982 !important;
+        color:black;
+    }
+
+    .nav-pills>li+li {
+        margin-left: 5px; 
+    } 
+
+    a {
+        color: inherit;
+    }
+
+    .download {
+        border-width: 2px;
+        border-radius:  0px;
+        border-color: black;
+        border-style: solid;
+        background-color: #ce926b !important;
+    }
+    .download:hover, .download:focus {
+        border-width: 2px;
+        border-radius:  0px;
+        border-color: black;
+        border-style: solid;
+        background-color: #ad7b59 !important;
+    }
+
+    .shadow {
+        filter: drop-shadow(0px 2px 0px #00000030)
+    }
+
+    .expand-leaderboard {
+        border-width: 2px 0px 0px 0px;
+        border-radius:  0px;
+        border-color: black;
+        border-style: solid;
+    }
+    
+    .expand-leaderboard:hover, .expand-leaderboard:focus {
+        border-width: 2px 0px 0px 0px;
+        border-radius:  0px;
+        border-color: black;
+        border-style: solid;
+        background-color: #dca982 !important;
+    }
+
+    .expand-leaderboard:not(.collapsed) {
+        border-width: 2px 0px 2px 0px;
+    }
+    
+    .expand-leaderboard:not(.collapsed) > .open {
+        display:none;
+    }
+    .expand-leaderboard.collapsed > .close {
+        display:none;
+    }
+
+    .credit-image {
+        background-color: #FFC89F;
+        aspect-ratio: 1; 
+        border: 2px solid black; 
+        filter: drop-shadow(6px 6px 0px #000000AA);
+        min-width: 128px;
+    }
+
+</style> 
+
+    <title>Celeste Sightread Competition</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+    <meta content="Sightread Competition" property="og:title" />
+    <meta content="TODO: add description lol" property="og:description" />
+    <meta content="https://sightread-competition.modded-celeste.com/" property="og:url" />
+    <meta content="#ffc0ff" data-react-helmet="true" name="theme-color" />-->
+    </head>
+<body>
+
+<div class="container ">
+    
+    <div class="container text-center pt-5 pb-5">
+        <div class="row">
+            <div class="col align-self-center ">
+                <img src="Assets/logo.png"></img>
+        </div>      
+        </div>
+    </div>
+    <div class="container text-center main mb-5" width="90%">
+        <div class="row">
+            <div class="col align-self-center pt-3">
+            <div class="row p-1 pb-3 ms-5 me-5">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                      <button class="nav-link tab-button active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">About</button>
+                    </li>
+                    <li class="nav-item">
+                      <button class="nav-link tab-button" id="profile-tab" data-bs-toggle="tab" data-bs-target="#maps-tab-pane" type="button" role="tab" aria-controls="maps-tab-pane" aria-selected="false">Maps</button>
+                    </li>
+                    <li class="nav-item">
+                      <button class="nav-link tab-button" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Creators-tab-pane" type="button" role="tab" aria-controls="Creators-tab-pane" aria-selected="false">Creators</button>
+                    </li>
+                  </ul>
+            </div>    
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active pb-1" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
+                    <h1 class="pb-2 pt-2">About</h1>
+                    <p>TODO TOUHOE TEXT</p>
+                    <small class="text-secondary">Website inspired by <a class="text-primary" href="https://iwannatwourney.com/">iwannatwourney</a></small><br>
+                    <small class="text-secondary">Using icons from <a class="text-primary" href="https://iconsvg.xyz/">iconsvg</a></small>
+                </div>
+                <div class="tab-pane fade pb-5" id="maps-tab-pane" role="tabpanel" aria-labelledby="maps-tab" tabindex="0">
+                    <h1 class="pb-2 pt-2">Maps</h1>
+                    <div id="currentMaps">
+                        <h2 class="pb-2 pt-2">Current Maps</h2>
+                    </div>
+                    <!-- 1 map 
+                        
+                    <div class="game text-center ms-3 me-3 mt-2 mb-2">
+                        <div class="row">
+                            <div class="col mb-2 me-2 mt-1 ms-1">
+                                <img src="Assets/none.png" width="100%" style="border: 2px solid black; filter: drop-shadow(6px 6px 0px #000000AA)"></img>
+                            </div>
+                            <div class="col-8">
+                                <div class="row text-start">
+                                    <h2 class="mb-0">Spring Cancel Jambaree</h2>
+                                    <small class="text-secondary">Author1, Author2</small>
+                                </div>
+                                <div class="row text-start text-break pt-2"><p>This map is all about the Springs! Springo really went all out by delivering us with unlimited spring cancels and spring shenanigans, </p></div>
+                            </div>
+                            <div class="col-2 row">
+                                <div class="row text-right me-0 pe-0 align-self-start">
+                                    <p class="text-white bg-black"  style="border-radius: 0px 0px 0px 50px; overflow:hidden">Grandmaster</p>
+                                </div>
+                                <div class="row align-self-end  align-items-end ps-2 pb-1 pe-1">
+                                    <div class="col-1"></div>
+                                    <div class="col align-self-end text-right download shadow">
+                                        <a href="https://gamebanana.com/mods/514413" target=”_blank”><img src="Assets/download.svg" width="33%" min-width="32px"></img></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row ms-0 me-0">
+                                <button class="btn expand-leaderboard p-0 pb-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leaderboardMap1" aria-expanded="false" aria-controls="leaderboardMap1">
+                                    <span class="open">Open</span><span class="close">Close</span> Leaderboard
+                                </button>
+                            </div>
+                            <div class="collapse row leaderboard" id="leaderboardMap1">
+                                <div class="col align-self-center p-2">
+                                    <div class="row">
+                                        <div class="row justify-content-center">
+                                            <div class="col-auto">1.</div>
+                                            <div class="col-5 text-break text-start">WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW</div>
+                                            <div class="col-1 align-self-start">3:25:5</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    map-->
+                    <div id="upcomingMaps">
+                        <h2 class="pb-2 pt-4">Upcoming Maps</h2>
+                    </div>
+                    <div id="previousMaps">
+                        <h2 class="pb-2 pt-4">Previous Maps</h2>
+                    </div>
+                </div>
+                <div class="tab-pane fade  pb-5" id="Creators-tab-pane" role="tabpanel" aria-labelledby="Creators-tab" tabindex="0">
+                    <div>
+                        <h1 class="pb-2 pt-2">Creators</h1>
+                        <div class="row row-cols-2 row-cols-md-4 ps-5 pe-5 g-3 justify-content-center" id="creators">
+                            <!--credit
+                            <div class="col">
+                                <div class="credit">
+                                    <div class="col pt-2 pb-2">
+                                        <img src="Assets/none.png" width="50%" class="credit-image"></img>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-2">
+                                            <h3 class="mb-0">Name</h3>
+                                        </div>
+                                        <p><img src="Assets/discord.svg" width="16px"> </img>auroraaquir</p>
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                    <h1 class="pb-2 pt-2">Event</h1>
+                    <div class="row row-cols-2 row-cols-md-4 ps-5 pe-5 g-3 justify-content-center" id="creators">
+                        <!--credit-->
+                        <div class="col">
+                            <div class="credit">
+                                <div class="col pt-2 pb-2">
+                                    <img src="Assets/aurora.png" width="50%" class="credit-image"></img>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-2">
+                                        <h3 class="mb-0">Aurora</h3>
+                                        <small class="mt-0 text-secondary">Website</small>
+                                    </div>
+                                    <p><img src="Assets/discord.svg" width="16px"> </img>disc</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="credit">
+                                <div class="col pt-2 pb-2">
+                                    <img src="Assets/touhoe.png"  width="50%" class="credit-image"></img>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-2">
+                                        <h3 class="mb-0">Touhoe</h3>
+                                        <small class="mt-0 text-secondary">Event</small>
+                                    </div>
+                                    <p><img src="Assets/discord.svg" width="16px"> </img>touhoe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>                  
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
+
+<script src="script.js"></script>
+</html>
