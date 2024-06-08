@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-2 row">
                     <div class="row text-right me-0 pe-0 align-self-start">
-                        <p class="text-white bg-black ${upcoming ? "countdown" : ""}" ${upcoming ? `until="${data.releaseAt*1000}"` : ""} style="border-radius: 0px 0px 0px 50px; overflow:hidden">${!upcoming ? data.difficulty : "soon.."}</p>
+                        <p class="text-white bg-black ${upcoming ? "countdown mono" : ""}" ${upcoming ? `until="${data.releaseAt*1000}"` : ""} style="border-radius: 0px 0px 0px 50px; overflow:hidden">${!upcoming ? data.difficulty : "soon.."}</p>
                     </div>
                     <div class="row align-self-end  align-items-end ps-2 pb-1 pe-1">
                         <div class="col-1"></div>
@@ -79,7 +79,7 @@
                         <span class="open">Open</span><span class="close">Close</span> Leaderboard
                     </button>
                 </div>
-                <div class="collapse row leaderboard" id="leaderboard${nr}" ${upcoming ? 'style="display: none;"' : ""}>
+                <div class="collapse row leaderboard mono" id="leaderboard${nr}" ${upcoming ? 'style="display: none;"' : ""}>
                     <div class="col align-self-center p-2">
                         ${leaderboard.outerHTML}
                 </div>
