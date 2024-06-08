@@ -26,9 +26,9 @@
                 let leaderboardRow = document.createElement('div');
                 leaderboardRow.className = "row justify-content-center";
                 let nr = document.createElement('div');
-                nr.className = "col-auto";
+                nr.className = "col-auto pe-1";
                 let name = document.createElement('div');
-                name.className = "col-5 text-break text-start";
+                name.className = "col-5 ps-1 text-break text-start";
                 let result = document.createElement('div');
                 result.className = "col-1 align-self-start";
     
