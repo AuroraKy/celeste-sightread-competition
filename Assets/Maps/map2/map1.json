@@ -1,21 +1,16 @@
 {
-  "name": "Full Map Name",
+  "name": "Warp City",
   "authors": [
     {
-      "name": "goose!",
-      "discord": "author1",
-      "avatarurl": "https://example.com/image"
-    },
-    {
-      "name": "Zucchini",
-      "discord": "author2",
+      "name": "te_79",
+      "discord": "te_79",
       "avatarurl": "https://example.com/image"
     }
   ],
-  "imageurl": "", 
+  "imageurl": "Assets/map_image/map1.png", 
   "gamebananaurl": "gamebananaurl",
-  "description": "very short descriptiondescriptiondescription",
-  "difficulty": "grandmaster",
+  "description": "Ranking Criteria: Fastest Time",
+  "difficulty": "Expert",
   "releaseAt": 1718316000,
   "isCurrent": false
 }
