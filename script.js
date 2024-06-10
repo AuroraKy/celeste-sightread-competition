@@ -1,6 +1,6 @@
 
     /**
-     * @param {{name:string, authors:[{name:string}], imageurl:string, gamebananaurl:string, description:string, difficulty:string, releaseAt:Number|None, isCurrent:boolean}} data
+     * @param {{name:string, authors:[{name:string}], imageurl:string, upcomingimageurl:string|None, gamebananaurl:string, description:string, difficulty:string, releaseAt:Number|None, isCurrent:boolean}} data
      * @param {[[timestamp: string, name: string, discord: string, result: string, link: string, swear: string]]} leaderboardData
      * @returns {div}
      */
@@ -12,6 +12,7 @@
             data.gamebananaurl = "#";
             data.description = " ";
             data.difficulty = "???";
+            data.imageurl = (data.upcomingimageurl != null ? data.upcomingimageurl : "");
 
             upcoming = true;
         }

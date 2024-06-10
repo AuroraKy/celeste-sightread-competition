@@ -12,7 +12,8 @@
       "avatarurl": "https://example.com/image"
     }
   ],
-  "imageurl": "Assets/upcoming.png", 
+  "imageurl": "Assets/none.png", 
+  "upcomingimageurl": "Assets/none.png", 
   "gamebananaurl": "gamebananaurl",
   "description": "short description",
   "difficulty": "grandmaster",
