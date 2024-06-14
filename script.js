@@ -7,7 +7,7 @@
     function generateGame(data, leaderboardData, nr=0) {
 
         let upcoming = false;
-        if (data.releaseAt != null) {
+        if (data.releaseAt != null && (data.releaseAt * 1000) > (new Date().getTime())) {
             data.name = "???";
             data.gamebananaurl = "#";
             data.description = " ";
@@ -102,6 +102,7 @@
                 let remaining = until - new Date().getTime();
                 if(remaining < 0) {
                     div.innerText = "Coming soon..";
+                    location.reload();
                 } else {
                     div.innerText = get_time_hh_mm_ss(remaining);
                 }
