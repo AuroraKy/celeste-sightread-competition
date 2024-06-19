@@ -1,0 +1,16 @@
+{
+  "name": "Warp City",
+  "authors": [
+    {
+      "name": "te_79",
+      "discord": "te_79",
+      "avatarurl": "Assets/map_image/te_79.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map1.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/519339",
+  "description": "Ranking Criteria: Fastest Time",
+  "difficulty": "Intermediate",
+  "releaseAt": 1719014400,
+  "isCurrent": true
+}

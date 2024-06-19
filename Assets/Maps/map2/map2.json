@@ -1,0 +1,16 @@
+{
+  "name": "Aurora Valley",
+  "authors": [
+    {
+      "name": "wwcen",
+      "discord": "N/A",
+      "avatarurl": "Assets/map_image/wwcen.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map3.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/517501",
+  "description": "Ranking Criteria: Fastest Time",
+  "difficulty": "Expert",
+  "releaseAt": 1719014400,
+  "isCurrent": true
+}
