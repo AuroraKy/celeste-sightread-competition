@@ -1,16 +1,16 @@
 {
-  "name": "Warp City",
+  "name": "Hold grab to shmove!!",
   "authors": [
     {
-      "name": "te_79",
-      "discord": "te_79",
-      "avatarurl": "Assets/map_image/te_79.png"
+      "name": "fref",
+      "discord": "N/A",
+      "avatarurl": "Assets/map_image/fref.png"
     }
   ],
-  "imageurl": "Assets/map_image/map1.png", 
-  "gamebananaurl": "https://gamebanana.com/mods/519339",
+  "imageurl": "Assets/map_image/map3.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/517501",
   "description": "Ranking Criteria: Fastest Time",
-  "difficulty": "Intermediate",
+  "difficulty": "Expert",
   "releaseAt": 1719014400,
   "isCurrent": true
 }
