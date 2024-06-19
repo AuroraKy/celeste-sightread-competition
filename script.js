@@ -8,7 +8,7 @@
 
         let upcoming = false;
         if (data.releaseAt != null && (data.releaseAt * 1000) > (new Date().getTime())) {
-            data.name = "???";
+            data.name = `${data.difficulty ?? "Unknown Difficulty"} Map`;
             data.gamebananaurl = "#";
             data.description = " ";
             data.difficulty = "???";
