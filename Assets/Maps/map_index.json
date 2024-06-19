@@ -15,7 +15,7 @@
             "description": "Ranking Criteria: Fastest Time",
             "difficulty": "Yellow Expert",
             "releaseAt": 1718388000,
-            "isCurrent": true
+            "isCurrent": false
         },
         "csv_data": [
             [
@@ -954,7 +954,7 @@
             "imageurl": "Assets/map_image/map2.png",
             "gamebananaurl": "https://gamebanana.com/mods/517501",
             "description": "Ranking Criteria: Fastest Time",
-            "difficulty": "Expert",
+            "difficulty": "Intermediate",
             "releaseAt": 1719014400,
             "isCurrent": true
         },
