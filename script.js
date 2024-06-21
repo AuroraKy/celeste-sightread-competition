@@ -198,6 +198,9 @@
             tab = "about-tab";
         }
         bootstrap.Tab.getOrCreateInstance(document.getElementById(tab))?.show();
+        let everything = document.getElementById("everything");
+        everything.classList.remove("d-none");
+        document.getElementById("loading").classList.add("d-none");
         // no cache for me!
         const ms = Date.now();
         fetch('Assets/Maps/map_index.json?nocache='+ms)
@@ -206,9 +209,6 @@
             })
             .then(function (data) {
                 main_function(data);
-                let everything = document.getElementById("everything");
-                everything.classList.remove("d-none");
-                document.getElementById("loading").classList.add("d-none");
             })
 
     })
