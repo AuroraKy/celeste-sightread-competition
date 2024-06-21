@@ -16,11 +16,12 @@
 
             upcoming = true;
         }
+        let hideLeaderboard = upcoming || data.isCurrent;
         // leaderboard
 
         let leaderboard = document.createElement('div');
         leaderboard.className = "row";
-        if(!upcoming) {
+        if(!hideLeaderboard) {
             leaderboardData.forEach((row, i) => {
                 if (i == 0) return;
     
@@ -70,12 +71,14 @@
                     </div>
                     <div class="row align-self-end  align-items-end ps-2 pb-1 pe-1">
                         <div class="col-1"></div>
+                        <a href="${data.gamebananaurl}" target=”_blank”>
                         <div class="col align-self-end text-right download shadow" ${upcoming ? `style="display: none"` : ""}>
-                            <a href="${data.gamebananaurl}" target=”_blank”><img src="Assets/download.svg" width="33%" min-width="32px"></img></a>
+                            <img src="Assets/download.svg" width="33%" min-width="32px"></img>
                         </div>
+                        </a>
                     </div>
                 </div>
-                <div class="row ms-0 me-0" ${upcoming ? 'style="display: none;"' : ""}>
+                <div class="row ms-0 me-0" ${hideLeaderboard ? 'style="display: none;"' : ""}>
                     <button class="btn expand-leaderboard p-0 pb-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leaderboard${nr}" aria-expanded="false" aria-controls="leaderboard${nr}">
                         <span class="open">Open</span><span class="close">Close</span> Leaderboard
                     </button>
@@ -179,7 +182,22 @@
 
     }
 
+
     window.addEventListener("load", (event) => {
+        // Remember last tab
+        let tabs = document.querySelectorAll('button[data-bs-toggle="tab"]');
+        tabs.forEach(tabEl => {
+            tabEl.addEventListener('shown.bs.tab', event => {
+                localStorage.setItem("CSC-currTab", event.target.id);
+            });
+        });
+
+        // recover last tab if possible
+        let tab = localStorage.getItem("CSC-currTab");
+        if(tab == null) {
+            tab = "about-tab";
+        }
+        bootstrap.Tab.getOrCreateInstance(document.getElementById(tab))?.show();
         // no cache for me!
         const ms = Date.now();
         fetch('Assets/Maps/map_index.json?nocache='+ms)
@@ -187,6 +205,10 @@
                 return response.json();
             })
             .then(function (data) {
-                main_function(data)
+                main_function(data);
+                let everything = document.getElementById("everything");
+                everything.classList.remove("d-none");
+                document.getElementById("loading").classList.add("d-none");
             })
+
     })

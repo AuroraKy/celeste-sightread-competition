@@ -123,6 +123,15 @@
         font-family: 'Reddit Mono';
     }
 
+    #everything:not(.d-none) {
+        animation: show 0.1s ease-in;
+    }
+
+    @keyframes show {
+        0% {opacity: 0; display: none;}
+        100% {opacity: 1;}
+    }
+
 </style> 
 
     <title>Celeste Sightread Competition</title>
@@ -137,7 +146,7 @@
     </head>
 <body>
 
-<div class="container ">
+<div class="container">
     
     <div class="container text-center pt-5 pb-5">
         <div class="row">
@@ -146,25 +155,29 @@
         </div>      
         </div>
     </div>
-    <div class="container text-center main mb-5" width="90%">
-        <div class="row">
+    <div class="container text-center main mb-5" width="90%" >
+        <h1 class="text-center" id="loading"><br><br><br><br><br><br><br><br><br><br></h1>
+        <div class="row d-none" id="everything">
             <div class="col align-self-center pt-3">
             <div class="row p-1 pb-3 ms-5 me-5">
                   <!-- Nav tabs -->
                   <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                      <button class="nav-link tab-button active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">About</button>
+                      <button class="nav-link active tab-button" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">About</button>
                     </li>
                     <li class="nav-item">
-                      <button class="nav-link tab-button" id="profile-tab" data-bs-toggle="tab" data-bs-target="#maps-tab-pane" type="button" role="tab" aria-controls="maps-tab-pane" aria-selected="false">Maps</button>
+                        <button class="nav-link tab-button" id="rules-tab" data-bs-toggle="tab" data-bs-target="#rules-tab-pane" type="button" role="tab" aria-controls="rules-tab-pane" aria-selected="false">Rules</button>
+                      </li>
+                    <li class="nav-item">
+                      <button class="nav-link tab-button" id="maps-tab" data-bs-toggle="tab" data-bs-target="#maps-tab-pane" type="button" role="tab" aria-controls="maps-tab-pane" aria-selected="false">Maps</button>
                     </li>
                     <li class="nav-item">
-                      <button class="nav-link tab-button" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Creators-tab-pane" type="button" role="tab" aria-controls="Creators-tab-pane" aria-selected="false">Creators</button>
+                      <button class="nav-link tab-button" id="Creators-tab" data-bs-toggle="tab" data-bs-target="#Creators-tab-pane" type="button" role="tab" aria-controls="Creators-tab-pane" aria-selected="false">Creators</button>
                     </li>
                   </ul>
             </div>    
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active pb-1" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
+                <div class="tab-pane show active fade pb-1" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
                     <h1 class="pb-2 pt-2">About</h1>
                     <p class="ps-2 pe-2">Hello and welcome to the Celeste Sightreading Competition!
                     <br>This is a weekly event where you get to race a freshly released map completely blind!
@@ -177,6 +190,19 @@
                     <small class="text-secondary"><a class="text-primary" href="https://discord.gg/XGCKtrPtpV">Discord Server</a></small><br>
                     <small class="text-secondary">Using icons from <a class="text-primary" href="https://iconsvg.xyz/">iconsvg</a></small>
                 </div>
+                <div class="tab-pane fade pb-5" id="rules-tab-pane" role="tabpanel" aria-labelledby="rules-tab" tabindex="0">
+                    <h1 class="pb-2 pt-2">Rules</h1>
+                    <p class="ps-2 pe-2"><b>What counts as cheating?</b></p>
+                    <p class="ps-2 pe-2">You may not look up routes/information on the map or watch anyone play any of the rooms before playing yourself.
+                        <br>No usage of Speedrun Tool, CelesteTAS, or Variants allowed (most maps will have binos throughout, no custom binos needed).
+                        <br>These are all great tools for practice in other contexts, but the main focus of this event is going to be sightreading.
+                        <br>Pausing isn't explicitly banned, but please don't abuse it for pausebuffering and such.
+                        </p>
+                        <p class="ps-2 pe-2"><b>Usage of the discord</b></p>
+                        <p class="ps-2 pe-2">Please try to avoid all spoilers, including the #spoilers channel, before completing the map.
+                        <br>Also, #general is a spoiler-free zone, so please refrain from talking about a map's gameplay details in that channel.
+                        <br>If you are really stuck on a part and you know that you will not place top 3, you may ask for a hint in #spoilers, but please don't abuse this 😌.
+                        <br></p></div>
                 <div class="tab-pane fade pb-5" id="maps-tab-pane" role="tabpanel" aria-labelledby="maps-tab" tabindex="0">
                     <h1 class="pb-2 pt-2">Maps</h1>
                     <div id="currentMaps">

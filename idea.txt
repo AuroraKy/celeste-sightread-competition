@@ -11,3 +11,11 @@ Update correct info for new map
 	Move new map up so that it is under "Current Maps" header
 	Move old map down to under "Released Maps" header
 	Hide "Upcoming Maps" header / section
+
+
+
+todo
+X	Hide leaderboard for current maps
+X	Add rules tab based on #faq in discord
+X	Make clicking download button work anywhere not just middle
+X	Keep maps tab when reloading on release of map
