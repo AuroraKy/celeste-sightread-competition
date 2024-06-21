@@ -56,7 +56,7 @@
         div.innerHTML = `
             <div class="row">
                 <div class="col mb-2 me-2 mt-1 ms-1">
-                    <img src="${(data.imageurl.length > 0 ? data.imageurl : "Assets/none.png")}" onerror="if (this.src != 'Assets/none.png') this.src = 'Assets/none.png';" width="100%" style="border: 2px solid black; filter: drop-shadow(6px 6px 0px #000000AA)"></img>
+                    <img src="${(data.imageurl.length > 0 ? data.imageurl : "Assets/none.png")}" onerror="if (this.src != 'Assets/none.png') this.src = 'Assets/none.png';" width="100%" style="filter: drop-shadow(6px 6px 0px #000000AA)"></img>
                 </div>
                 <div class="col-8">
                     <div class="row text-start">
