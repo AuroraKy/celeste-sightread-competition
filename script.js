@@ -28,11 +28,11 @@
                 let leaderboardRow = document.createElement('div');
                 leaderboardRow.className = "row justify-content-center";
                 let nr = document.createElement('div');
-                nr.className = "col-auto pe-1";
+                nr.className = "col-1 pe-1 text-end";
                 let name = document.createElement('div');
                 name.className = "col-5 ps-1 text-break text-start";
                 let result = document.createElement('div');
-                result.className = "col-1 align-self-start";
+                result.className = "col-1 align-self-start text-end";
     
                 nr.innerText = `${i}.`;
                 name.innerText = row[1];
@@ -198,9 +198,9 @@
             tab = "about-tab";
         }
         bootstrap.Tab.getOrCreateInstance(document.getElementById(tab))?.show();
-        let everything = document.getElementById("everything");
-        everything.classList.remove("d-none");
+        document.getElementById("everything").classList.remove("d-none");
         document.getElementById("loading").classList.add("d-none");
+
         // no cache for me!
         const ms = Date.now();
         fetch('Assets/Maps/map_index.json?nocache='+ms)
