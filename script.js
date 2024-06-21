@@ -182,8 +182,8 @@
 
     }
 
+    function tabSetup() {
 
-    window.addEventListener("load", (event) => {
         // Remember last tab
         let tabs = document.querySelectorAll('button[data-bs-toggle="tab"]');
         tabs.forEach(tabEl => {
@@ -201,6 +201,11 @@
         document.getElementById("everything").classList.remove("d-none");
         document.getElementById("loading").classList.add("d-none");
 
+    }
+
+    tabSetup();
+
+    window.addEventListener("load", (event) => {
         // no cache for me!
         const ms = Date.now();
         fetch('Assets/Maps/map_index.json?nocache='+ms)
