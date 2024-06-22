@@ -1,8 +1,8 @@
 
 const LEADERBOARD_BACKGROUNDS = {
-    1: "linear-gradient(90deg, rgba(0,0,0,0) 20%, gold 30%, gold 70%, rgba(0,0,0,0) 87%)",
-    2: "linear-gradient(90deg, rgba(0,0,0,0) 20%, silver 30%, silver 70%, rgba(0,0,0,0) 87%)",
-    3: "linear-gradient(90deg, rgba(0,0,0,0) 20%, rgb(185, 133, 108) 30%, rgb(185, 133, 108) 70%, rgba(0,0,0,0) 87%)"
+    1: "linear-gradient(90deg, rgba(0,0,0,0) 20%, gold 30%, gold 77%, rgba(0,0,0,0) 87%)",
+    2: "linear-gradient(90deg, rgba(0,0,0,0) 20%, silver 30%, silver 77%, rgba(0,0,0,0) 87%)",
+    3: "linear-gradient(90deg, rgba(0,0,0,0) 20%, rgb(185, 133, 108) 30%, rgb(185, 133, 108) 77%, rgba(0,0,0,0) 87%)"
 }
 /**
  * @param {{name:string, authors:[{name:string}], imageurl:string, upcomingimageurl:string|None, gamebananaurl:string, description:string, difficulty:string, releaseAt:Number|None, isCurrent:boolean}} data
