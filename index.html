@@ -25,7 +25,7 @@
         background-attachment: fixed;
     }
 
-    .main, .game, .credit {
+    .main, .game {
         background-color: #FFC89F;
         background-clip: border-box;
         border-width: 3px;
@@ -34,6 +34,16 @@
         border-style: solid;
         filter: drop-shadow(0px 3px 0px #00000030);
         min-width: 150px;
+    }
+
+    .credit {
+        background-color: #FFC89F;
+        background-clip: border-box;
+        border-width: 3px;
+        border-radius: 5px;
+        border-color: black;
+        border-style: solid;
+        filter: drop-shadow(0px 3px 0px #00000030);
     }
 
     li > .tab-button, li > .tab-button:focus {
@@ -116,7 +126,8 @@
         aspect-ratio: 1; 
         border: 2px solid black; 
         filter: drop-shadow(6px 6px 0px #000000AA);
-        min-width: 128px;
+        transform: translateX(-3px);
+        max-width: 128px;
     }
 
     .mono {
@@ -130,6 +141,15 @@
     @keyframes show {
         0% {opacity: 0; display: none;}
         100% {opacity: 1;}
+    }
+
+    @media only screen and (max-width: 574px) {
+        .credit-container {
+            width:150px;
+        }
+        .credit-image {
+            max-width: 100px;
+        }
     }
 
 </style> 
@@ -159,19 +179,19 @@
         <h1 class="text-center" id="loading"><br><br><br><br><br><br><br><br><br><br></h1>
         <div class="row d-none" id="everything">
             <div class="col align-self-center pt-3">
-            <div class="row p-1 pb-3 ms-5 me-5">
+            <div class="row p-1 pb-1 ms-5 me-5">
                   <!-- Nav tabs -->
                   <ul class="nav nav-pills nav-fill">
-                    <li class="nav-item">
+                    <li class="nav-item mb-2">
                       <button class="nav-link active tab-button" id="about-tab" data-bs-toggle="tab" data-bs-target="#about-tab-pane" type="button" role="tab" aria-controls="about-tab-pane" aria-selected="false">About</button>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mb-2">
                         <button class="nav-link tab-button" id="rules-tab" data-bs-toggle="tab" data-bs-target="#rules-tab-pane" type="button" role="tab" aria-controls="rules-tab-pane" aria-selected="false">Rules</button>
                       </li>
-                    <li class="nav-item">
+                    <li class="nav-item mb-2">
                       <button class="nav-link tab-button" id="maps-tab" data-bs-toggle="tab" data-bs-target="#maps-tab-pane" type="button" role="tab" aria-controls="maps-tab-pane" aria-selected="false">Maps</button>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mb-2">
                       <button class="nav-link tab-button" id="Creators-tab" data-bs-toggle="tab" data-bs-target="#Creators-tab-pane" type="button" role="tab" aria-controls="Creators-tab-pane" aria-selected="false">Creators</button>
                     </li>
                   </ul>
@@ -260,9 +280,9 @@
                     </div>
                 </div>
                 <div class="tab-pane fade  pb-5" id="Creators-tab-pane" role="tabpanel" aria-labelledby="Creators-tab" tabindex="0">
-                    <div>
+                    <div class="container text-center">
                         <h1 class="pb-2 pt-2">Creators</h1>
-                        <div class="row row-cols-2 row-cols-md-4 ps-5 pe-5 g-3 justify-content-center" id="creators">
+                        <div class="row row-cols-2 row-cols-md-4 ps-5 pe-5 g-2 justify-content-center" id="creators">
                             <!--credit
                             <div class="col">
                                 <div class="credit">
@@ -282,12 +302,12 @@
                     <h1 class="pb-2 pt-2">Event</h1>
                     <div class="row row-cols-2 row-cols-md-4 ps-5 pe-5 g-3 justify-content-center" id="creators">
                         <!--credit-->
-                        <div class="col">
+                        <div class="col credit-container">
                             <div class="credit">
                                 <div class="col pt-2 pb-2">
-                                    <img src="Assets/aurora.png" width="50%" class="credit-image"></img>
+                                    <img src="Assets/aurora.png" class="image-fluid credit-image"></img>
                                 </div>
-                                <div class="col">
+                                <div class="col text-break">
                                     <div class="mb-2">
                                         <h3 class="mb-0">Aurora</h3>
                                         <small class="mt-0 text-secondary">Website</small>
@@ -296,18 +316,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col credit-container">
                             <div class="credit">
                                 <div class="col pt-2 pb-2">
-                                    <img src="Assets/touhoe.png"  width="50%" class="credit-image"></img>
+                                    <img src="Assets/touhoe.png" class="image-fluid credit-image"></img>
                                 </div>
-                                <div class="col">
+                                <div class="col text-break">
                                     <div class="mb-2">
                                         <h3 class="mb-0">Touhoe</h3>
                                         <small class="mt-0 text-secondary">Event</small>
                                     </div>
                                     <p><img src="Assets/discord.svg" width="16px"> </img>touhoe</p>
-                                </div>
                             </div>
                         </div>
                     </div>

@@ -38,11 +38,11 @@ function generateGame(data, leaderboardData, nr=0) {
             }
 
             let nr = document.createElement('div');
-            nr.className = "col-1 pe-1 text-end";
+            nr.className = "col-2 col-sm-1 pe-1 text-end";
             let name = document.createElement('div');
-            name.className = "col-5 ps-1 text-break text-start";
+            name.className = "col-5 col-sm-5 ps-1 pe-1 text-break text-start";
             let result = document.createElement('div');
-            result.className = "col-1 align-self-start text-end";
+            result.className = "col-2 col-sm-1 align-self-start text-end";
 
             nr.innerText = `${i}.`;
             name.innerText = row[1];
@@ -64,23 +64,22 @@ function generateGame(data, leaderboardData, nr=0) {
     let div = document.createElement('div');
     div.className = "game text-center ms-3 me-3 mt-2 mb-2"
     div.innerHTML = `
-        <div class="row">
+        <div class="row container ms-0 me-0 ps-0 pe-0">
             <div class="col mb-2 me-2 mt-1 ms-1">
                 <img src="${(data.imageurl.length > 0 ? data.imageurl : "Assets/none.png")}" onerror="if (this.src != 'Assets/none.png') this.src = 'Assets/none.png';" width="100%" style="filter: drop-shadow(6px 6px 0px #000000AA)"></img>
             </div>
-            <div class="col-8">
-                <div class="row text-start">
+            <div class="col-4 col-sm-8">
+                <div class="row text-start text-break">
                     <h2 class="mb-0">${data.name}</h2>
                     <small class="text-secondary">${data.authors.map(author => author.name).join(", ")}</small>
                 </div>
                 <div class="row text-start text-break pt-2"><p>${data.description}</p></div>
             </div>
-            <div class="col-2 row">
-                <div class="row text-right me-0 pe-0 align-self-start">
-                    <p class="text-white bg-black ${upcoming ? "countdown mono" : ""}" ${upcoming ? `until="${data.releaseAt*1000}"` : ""} style="border-radius: 0px 0px 0px 50px; overflow:hidden">${!upcoming ? data.difficulty : "soon.."}</p>
+            <div class="col-4 col-sm-2 m-0 p-0 row container">
+                <div class="row text-right me-0 ms-0 pe-0 align-self-start">
+                    <p class="text-white bg-black text-break pe-0 ps-4 ${upcoming ? "countdown mono" : ""}" ${upcoming ? `until="${data.releaseAt*1000}"` : ""} style="border-radius: 0px 0px 0px 50px; overflow:hidden">${!upcoming ? data.difficulty : "soon.."}</p>
                 </div>
-                <div class="row align-self-end  align-items-end ps-2 pb-1 pe-1">
-                    <div class="col-1"></div>
+                <div class="row container align-self-end  align-items-end me-0 ms-0 pe-0 pb-1 ps-4">
                     <a href="${data.gamebananaurl}" target=”_blank”>
                     <div class="col align-self-end text-right download shadow" ${upcoming ? `style="display: none"` : ""}>
                         <img src="Assets/download.svg" width="33%" min-width="32px"></img>
@@ -88,7 +87,7 @@ function generateGame(data, leaderboardData, nr=0) {
                     </a>
                 </div>
             </div>
-            <div class="row ms-0 me-0" ${hideLeaderboard ? 'style="display: none;"' : ""}>
+            <div class="row ms-0 me-0 ps-0 pe-0" ${hideLeaderboard ? 'style="display: none;"' : ""}>
                 <button class="btn expand-leaderboard p-0 pb-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#leaderboard${nr}" aria-expanded="false" aria-controls="leaderboard${nr}">
                     <span class="open">Open</span><span class="close">Close</span> Leaderboard
                 </button>
@@ -136,13 +135,13 @@ function startCountdown() {
  */
 function generateCredit(data) {
     let div = document.createElement('div');
-    div.className = "col";
+    div.className = "col credit-container";
     div.innerHTML = `
     <div class="credit">
         <div class="col pt-2 pb-2">
-            <img src="${data.avatarurl.length > 0 ? data.avatarurl : "Assets/none.png"}"  width="50%" class="credit-image" onerror="if (this.src != 'Assets/none.png') this.src = 'Assets/none.png';"></img>
+            <img class="img-fluid credit-image" src="${data.avatarurl.length > 0 ? data.avatarurl : "Assets/none.png"}" onerror="if (this.src != 'Assets/none.png') this.src = 'Assets/none.png';"></img>
         </div>
-        <div class="col">
+        <div class="col text-break">
             <div class="mb-2">
                 <h3 class="mb-0">${data.name}</h3>
             </div>
