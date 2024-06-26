@@ -10,7 +10,7 @@
   "imageurl": "Assets/map_image/map3.png", 
   "gamebananaurl": "https://gamebanana.com/mods/519896",
   "description": "Ranking Criteria: Fastest Time",
-  "difficulty": "Expert minus 3",
+  "difficulty": "'Expert minus 3'",
   "releaseAt": 1719597600,
   "isCurrent": true
 }
