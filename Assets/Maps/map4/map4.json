@@ -7,9 +7,9 @@
       "avatarurl": "Assets/map_image/leviathan.png"
     }
   ],
-  "imageurl": "Assets/map_image/map3.png", 
+  "imageurl": "Assets/map_image/map4.png", 
   "gamebananaurl": "https://gamebanana.com/mods/519896",
-  "description": "Ranking Criteria: Fastest Time",
+  "description": "Ranking Criteria: Lowest Deaths*",
   "difficulty": "'Expert minus 3'",
   "releaseAt": 1719597600,
   "isCurrent": true
