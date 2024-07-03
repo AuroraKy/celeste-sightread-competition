@@ -1,0 +1,16 @@
+{
+  "name": "Klotski 2",
+  "authors": [
+    {
+      "name": "dizer",
+      "discord": "N/A",
+      "avatarurl": "Assets/map_image/dizer.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map5.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/505080",
+  "description": "Ranking Criteria: Lowest Time*",
+  "difficulty": "Puzzle",
+  "releaseAt": 1720202400,
+  "isCurrent": true
+}
