@@ -12,5 +12,6 @@
   "description": "Ranking Criteria: Lowest Deaths*",
   "difficulty": "'Expert minus 3'",
   "releaseAt": 1719597600,
-  "isCurrent": false
+  "isCurrent": false,
+  "order": 4
 }

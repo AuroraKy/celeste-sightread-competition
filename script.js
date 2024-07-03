@@ -5,7 +5,7 @@ const LEADERBOARD_BACKGROUNDS = {
     3: "linear-gradient(90deg, rgba(0,0,0,0) 20%, rgb(185, 133, 108) 30%, rgb(185, 133, 108) 77%, rgba(0,0,0,0) 87%)"
 }
 /**
- * @param {{name:string, authors:[{name:string}], imageurl:string, upcomingimageurl:string|None, gamebananaurl:string, description:string, difficulty:string, releaseAt:Number|None, isCurrent:boolean}} data
+ * @param {{name:string, authors:[{name:string}], imageurl:string, upcomingimageurl:string|None, gamebananaurl:string, description:string, difficulty:string, releaseAt:Number|None, isCurrent:boolean, order:Number}} data
  * @param {[[timestamp: string, name: string, discord: string, result: string, link: string, swear: string]]} leaderboardData
  * @returns {div}
  */
@@ -153,7 +153,7 @@ function generateCredit(data) {
 }
 
 /**
- * @param {[{csv_data:[[timestamp: string, name: string, discord: string, result: string, link: string, swear: string]], map_data:{name:string, authors:[{name:string, discord:string, avatarurl:string}], imageurl:string, gamebananaurl:string, description:string, difficulty:string, releaseAt:Number|None, isCurrent:boolean}}]} data
+ * @param {[{csv_data:[[timestamp: string, name: string, discord: string, result: string, link: string, swear: string]], map_data:{name:string, authors:[{name:string, discord:string, avatarurl:string}], imageurl:string, gamebananaurl:string, description:string, difficulty:string, releaseAt:Number|None, isCurrent:boolean, order:Number}}]} data
  */
 function main_function(data) {
     let gameDivs = [];
@@ -163,9 +163,11 @@ function main_function(data) {
     let creditDiv = document.getElementById("creators");
 
     let authorList = [];
+    data.sort((mapA, mapB) => -1*(mapA.map_data.order - mapB.map_data.order));
     data.forEach((map, i) => {
         let [pos, game] = generateGame(map.map_data, map.csv_data, i);
-        gameDivs[pos].appendChild(game);
+        if(map.map_data.isCurrent) gameDivs[pos].insertBefore(game, gameDivs[pos].children[1]);
+        else gameDivs[pos].appendChild(game);
         map.map_data.authors.forEach(author => {
             authorList.push([author.name + author.discord, author])
         })

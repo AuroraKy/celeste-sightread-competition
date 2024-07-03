@@ -34,11 +34,11 @@ def create_map_dictionary(path):
             map_obj["name"] = folder
             for file in files:
                 if file.endswith(".csv"):
-                    with open(join(path, folder, file), "r") as csv_file:
+                    with open(join(path, folder, file), "r", encoding="utf-8") as csv_file:
                         csv_reader = csv.reader(csv_file, delimiter=',')
                         map_obj["csv_data"] = [row for row in csv_reader]
                 if file.endswith(".json"):
-                    with open(join(path, folder, file), "r") as json_file:
+                    with open(join(path, folder, file), "r", encoding="utf-8") as json_file:
                         map_obj["map_data"] = json.load(json_file)
 
             maps.append(map_obj)

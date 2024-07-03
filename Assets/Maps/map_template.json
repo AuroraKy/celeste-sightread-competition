@@ -18,5 +18,6 @@
   "description": "short description",
   "difficulty": "grandmaster",
   "releaseAt": 1717792411,
-  "isCurrent": false
+  "isCurrent": false,
+  "order": 0
 }
