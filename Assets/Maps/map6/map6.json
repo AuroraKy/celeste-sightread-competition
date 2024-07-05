@@ -1,16 +1,16 @@
 {
-  "name": "Sadness Underhang",
+  "name": "Klotski 2",
   "authors": [
     {
-      "name": "RikiUwU",
+      "name": "dizer",
       "discord": "N/A",
-      "avatarurl": "Assets/map_image/riki.png"
+      "avatarurl": "Assets/map_image/dizer.png"
     }
   ],
   "imageurl": "Assets/map_image/map6.png", 
-  "gamebananaurl": "hhttps://gamebanana.com/mods/519387",
-  "description": "Ranking Criteria: Highest Score",
-  "difficulty": "Advanced",
+  "gamebananaurl": "https://gamebanana.com/mods/505080",
+  "description": "Ranking Criteria: Lowest Time*",
+  "difficulty": "Puzzle",
   "releaseAt": 1720202400,
   "isCurrent": true,
   "order": 6
