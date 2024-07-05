@@ -3456,7 +3456,7 @@
             "difficulty": "Puzzle",
             "releaseAt": 1720202400,
             "isCurrent": true,
-            "order": 5
+            "order": 6
         },
         "csv_data": [
             [
@@ -3486,7 +3486,7 @@
             "difficulty": "Advanced",
             "releaseAt": 1720202400,
             "isCurrent": true,
-            "order": 6
+            "order": 5
         },
         "csv_data": [
             [
