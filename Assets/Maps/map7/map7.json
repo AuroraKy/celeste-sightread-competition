@@ -1,0 +1,17 @@
+{
+  "name": "ruins in the city",
+  "authors": [
+    {
+      "name": "moshugu18",
+      "discord": "N/A",
+      "avatarurl": "Assets/map_image/moshugu.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map7.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/519956",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Low Expert",
+  "releaseAt": 1720807200,
+  "isCurrent": true,
+  "order": 7
+}

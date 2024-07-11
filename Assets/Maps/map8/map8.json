@@ -1,0 +1,17 @@
+{
+  "name": "A Tasty Pie!",
+  "authors": [
+    {
+      "name": "Banana23",
+      "discord": "banana23",
+      "avatarurl": "Assets/map_image/banana.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map8.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/518295",
+  "description": "Ranking Criteria: Lowest Deaths",
+  "difficulty": "Grandmaster",
+  "releaseAt": 1720807200,
+  "isCurrent": true,
+  "order": 8
+}
