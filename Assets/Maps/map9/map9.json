@@ -1,0 +1,17 @@
+{
+  "name": "Counterclockwise",
+  "authors": [
+    {
+      "name": "UnderDragon",
+      "discord": "under_dragon",
+      "avatarurl": "Assets/map_image/underdragon.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map9.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/519343",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Mid Expert",
+  "releaseAt": 1721412000,
+  "isCurrent": true,
+  "order": 9
+}

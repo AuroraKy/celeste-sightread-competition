@@ -1,0 +1,17 @@
+{
+  "name": "My Forest",
+  "authors": [
+    {
+      "name": "hoshiya kimu",
+      "discord": "N/A",
+      "avatarurl": "Assets/map_image/hoshiya.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map10.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/510490",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Grandmaster",
+  "releaseAt": 1721412000,
+  "isCurrent": true,
+  "order": 10
+}
