@@ -1,0 +1,17 @@
+{
+  "name": "Pelagic Ruins",
+  "authors": [
+    {
+      "name": "Moladan",
+      "discord": "moladan",
+      "avatarurl": "Assets/map_image/moladan.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map12.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/527340",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Mid Expert",
+  "releaseAt": 1722016800,
+  "isCurrent": true,
+  "order": 12
+}

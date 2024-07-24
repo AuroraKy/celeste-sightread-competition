@@ -1,0 +1,17 @@
+{
+  "name": "Three Flowers",
+  "authors": [
+    {
+      "name": "Crispybag",
+      "discord": "crispybag",
+      "avatarurl": "Assets/map_image/crispybag.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map11.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/528891",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Advanced",
+  "releaseAt": 1722016800,
+  "isCurrent": true,
+  "order": 11
+}
