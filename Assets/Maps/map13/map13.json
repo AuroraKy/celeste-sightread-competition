@@ -1,0 +1,17 @@
+{
+  "name": "Take a Rest!",
+  "authors": [
+    {
+      "name": "Santa's Wishes",
+      "discord": "WorkshopElder33",
+      "avatarurl": "Assets/map_image/santa.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map13.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/527340",
+  "description": "Ranking Criteria: Most Rest",
+  "difficulty": "Stargazing",
+  "releaseAt": 1722621600,
+  "isCurrent": true,
+  "order": 13
+}

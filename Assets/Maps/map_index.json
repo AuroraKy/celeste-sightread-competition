@@ -3109,17 +3109,545 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Advanced",
             "releaseAt": 1722016800,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 11
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your time?",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "7/27/2024 17:24:27",
+                "Parrot Dash",
+                "parrotdash",
+                "20:36",
+                "https://www.twitch.tv/videos/2209111601",
+                "Yes"
+            ],
+            [
+                "7/27/2024 14:39:51",
+                "Appels",
+                "appelappelsappels",
+                "22:27",
+                "https://youtu.be/Og6NYyp7Axs",
+                "Yes"
+            ],
+            [
+                "7/27/2024 4:22:51",
+                "Guest_",
+                "Guest_",
+                "24:25",
+                "https://youtu.be/bYjmaURZ8ig",
+                "Yes"
+            ],
+            [
+                "7/26/2024 14:03:29",
+                "olive",
+                "olive__r",
+                "25:27",
+                "https://imgur.com/a/w28LUzz",
+                "Yes"
+            ],
+            [
+                "7/27/2024 12:56:38",
+                "wafflemaster608",
+                "wafflemaster608",
+                "25:43",
+                "https://imgur.com/a/7Ed1SD5",
+                "Yes"
+            ],
+            [
+                "7/26/2024 17:57:52",
+                "Rafix",
+                "rafix8179",
+                "26:26",
+                "https://imgur.com/a/arhGBTN",
+                "Yes"
+            ],
+            [
+                "7/30/2024 8:43:57",
+                "ZKB",
+                "zkb_",
+                "27:55",
+                "https://imgur.com/a/celeste-sightreading-competition-AvOiFAl",
+                "Yes"
+            ],
+            [
+                "7/27/2024 3:58:00",
+                "He2D",
+                "He2D",
+                "29:07",
+                "https://prnt.sc/Qzwi4Ena10Eb",
+                "Yes"
+            ],
+            [
+                "7/26/2024 13:35:57",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "29:37",
+                "https://cdn.discordapp.com/attachments/1249796816254533665/1266478922862694501/SPOILER_20240726193344_1.jpg?ex=66a54be9&is=66a3fa69&hm=28184cf7ef3f248902790e3cec424e9b997e27a6541c7ca788061818ec93b3f2&",
+                "Yes"
+            ],
+            [
+                "7/27/2024 8:34:00",
+                "\u521b\u4e16Creater",
+                "\u521b\u4e16Creater",
+                "31:20",
+                "https://prnt.sc/6JdNHAscPK9M",
+                "Yes"
+            ],
+            [
+                "7/26/2024 14:34:13",
+                "Cookie",
+                "catastrophic_cookie",
+                "31:53",
+                "https://imgur.com/gallery/csc-week-7-three-flowers-3bumIIC",
+                "Yes"
+            ],
+            [
+                "7/27/2024 16:43:08",
+                "Sir Jiggle",
+                "Sir Jiggle",
+                "31:59",
+                "https://prnt.sc/5-2VejXJ3fyj",
+                "Yes"
+            ],
+            [
+                "7/27/2024 20:40:47",
+                "WoahE",
+                "woahegg",
+                "32:18",
+                "https://www.twitch.tv/videos/2209259896",
+                "Yes"
+            ],
+            [
+                "7/29/2024 14:01:10",
+                "Froggo",
+                "froggo____",
+                "32:44",
+                "https://prnt.sc/QQ_LZ6x34I7h",
+                "Yes"
+            ],
+            [
+                "7/27/2024 3:49:00",
+                "\u65af\u5854",
+                "\u65af\u5854",
+                "33:04",
+                "https://prnt.sc/sorVtqyKe26W",
+                "Yes"
+            ],
+            [
+                "7/30/2024 2:11:41",
+                "conski",
+                "conski_",
+                "33:08",
+                "https://youtu.be/-dhxQVA7CKE?si=-g-kTDnyNHBBBylv",
+                "Yes"
+            ],
+            [
+                "7/30/2024 10:30:20",
+                "DataSmasher327",
+                "DataSmasher327",
+                "33:50",
+                "https://imgur.com/a/oRZlut5",
+                "Yes"
+            ],
+            [
+                "7/27/2024 4:51:05",
+                "\u4e09\u601d",
+                "\u4e09\u601dsansi",
+                "33:56",
+                "https://www.bilibili.com/video/BV1cy411v7ur",
+                "Yes"
+            ],
+            [
+                "7/30/2024 6:37:23",
+                "BS_KNK",
+                "celebes_knk",
+                "34:06",
+                "https://www.twitch.tv/videos/2209633896",
+                "Yes"
+            ],
+            [
+                "7/28/2024 10:58:47",
+                "leiz123321",
+                "leiz123321",
+                "34:59",
+                "https://youtu.be/P7J_Y_X24pc",
+                "Yes"
+            ],
+            [
+                "7/30/2024 11:02:05",
+                "juckter",
+                "juckter",
+                "35:00",
+                "https://youtu.be/YpVwcCdcbAM",
+                "Yes"
+            ],
+            [
+                "7/29/2024 20:43:03",
+                "nonoji(\u306e\u306e\u5b57)",
+                "Non0ji",
+                "35:22",
+                "https://imgur.com/a/FvTuM7n",
+                "Yes"
+            ],
+            [
+                "7/27/2024 7:59:20",
+                "Nyan",
+                "ppnyan",
+                "35:50",
+                "https://prnt.sc/XWYWA4RDywv2",
+                "Yes"
+            ],
+            [
+                "7/27/2024 8:22:00",
+                "bits\u50cf\u7d20",
+                "bits\u50cf\u7d20",
+                "36:15",
+                "https://prnt.sc/uIsrcVe-J5UV",
+                "Yes"
+            ],
+            [
+                "7/30/2024 0:56:58",
+                "AmberBolt",
+                "amber_bolt",
+                "36:54",
+                "https://youtu.be/hTlvpWCxYYc",
+                "Yes"
+            ],
+            [
+                "7/30/2024 20:12:00",
+                "\u554a\u9e3f\u5440i",
+                "\u554a\u9e3f\u5440i",
+                "38:12",
+                "https://prnt.sc/GWCDP6nmodn8",
+                "Yes"
+            ],
+            [
+                "7/27/2024 20:04:00",
+                "Bread",
+                "Bread",
+                "38:32",
+                "https://prnt.sc/_UfCInoCzXYU",
+                "Yes"
+            ],
+            [
+                "7/30/2024 11:36:41",
+                "lem",
+                "lemqns",
+                "38:43",
+                "https://prnt.sc/ok-6neh9KVhn",
+                "Yes"
+            ],
+            [
+                "7/27/2024 13:47:14",
+                "Nene",
+                "nene22",
+                "39:16",
+                "https://prnt.sc/GTVSaD1Q1WwN",
+                "Yes"
+            ],
+            [
+                "7/30/2024 7:09:41",
+                "OSoverspike",
+                "osoverspike",
+                "39:46",
+                "https://youtu.be/xaxJAt3oMG4",
+                "Yes"
+            ],
+            [
+                "7/26/2024 13:49:16",
+                "-Undefined-",
+                "._undefined_",
+                "41:17",
+                "https://imgur.com/a/2gOAiaq",
+                "Yes"
+            ],
+            [
+                "7/30/2024 2:00:53",
+                "Tnt_go_bang",
+                "tntgobang",
+                "42:18",
+                "https://imgur.com/a/QofsMn8",
+                "Yes"
+            ],
+            [
+                "7/27/2024 22:27:00",
+                "SheKong",
+                "SheKong",
+                "43:23",
+                "https://prnt.sc/Zw3MWZQ32_0R",
+                "Yes"
+            ],
+            [
+                "7/26/2024 15:30:52",
+                "unfandemcmillen",
+                "unfandemcmillen",
+                "44:29",
+                "https://imgur.com/a/jOkGwDl",
+                "Yes"
+            ],
+            [
+                "7/28/2024 21:20:10",
+                "Ecl1psed",
+                "Ecl1psed",
+                "44:34",
+                "https://imgur.com/a/Jehn3O3",
+                "Yes"
+            ],
+            [
+                "7/28/2024 18:38:31",
+                "im_pickle_sus",
+                "im_pickle_sus",
+                "46:39",
+                "https://imgur.com/a/YydTbyB",
+                "Yes"
+            ],
+            [
+                "7/28/2024 0:37:00",
+                "\u65e0\u60c5\u76841up\u673a\u5668",
+                "\u65e0\u60c5\u76841up\u673a\u5668",
+                "47:25",
+                "https://prnt.sc/fFnMiF6Jif0i",
+                "Yes"
+            ],
+            [
+                "7/27/2024 2:07:52",
+                "ArvingoPro",
+                "ArvingoPro",
+                "48:43",
+                "https://imgur.com/joUaSWL",
+                "Yes"
+            ],
+            [
+                "7/27/2024 14:38:38",
+                "Adam Korinek",
+                "Adam Korinek",
+                "49:54",
+                "https://prnt.sc/lw-BeClPDR88",
+                "Yes"
+            ],
+            [
+                "7/27/2024 17:51:34",
+                "JustinTime",
+                "JustinTime",
+                "50:09",
+                "https://imgur.com/a/GkJvTxW",
+                "Yes"
+            ],
+            [
+                "7/28/2024 14:21:57",
+                "rilp_",
+                "rilp_",
+                "50:25",
+                "https://imgur.com/a/w5RjCZx",
+                "Yes"
+            ],
+            [
+                "7/27/2024 13:04:56",
+                "Pixel_Yosh",
+                "Pixel_Yosh",
+                "51:19",
+                "https://imgur.com/Wut4JwC",
+                "Yes"
+            ],
+            [
+                "7/29/2024 23:54:08",
+                "woxens",
+                "woxens",
+                "54:19",
+                "https://imgur.com/a/dKHiKqp",
+                "Yes"
+            ],
+            [
+                "7/29/2024 23:09:27",
+                "Scrubz",
+                "Scrubz",
+                "55:22",
+                "https://youtu.be/9F4VO2H-S7M",
+                "Yes"
+            ],
+            [
+                "7/27/2024 15:21:00",
+                "Winterline",
+                "Winterline",
+                "57:21",
+                "https://prnt.sc/GKC6erol-avv",
+                "Yes"
+            ],
+            [
+                "7/28/2024 14:16:00",
+                "zhujiao",
+                "zhujiao",
+                "58:36",
+                "https://prnt.sc/whFHCiY7Mg6U",
+                "Yes"
+            ],
+            [
+                "7/27/2024 11:06:00",
+                "\u4e0d\u8bb0\u5f97\u5bc6\u7801",
+                "\u4e0d\u8bb0\u5f97\u5bc6\u7801",
+                "58:47",
+                "https://prnt.sc/vMYYZuTjtIlC",
+                "Yes"
+            ],
+            [
+                "7/26/2024 13:40:05",
+                "Sapphire_Xer0",
+                "Sapphire_Xer0",
+                "1:00:17",
+                "https://imgur.com/VZZ4WU9",
+                "Yes"
+            ],
+            [
+                "7/27/2024 11:18:00",
+                "\u4e0d\u53ef\u9006",
+                "\u4e0d\u53ef\u9006",
+                "1:05:19",
+                "https://prnt.sc/FK5pG7U8I0WX",
+                "Yes"
+            ],
+            [
+                "7/30/2024 11:33:19",
+                "Goldenfaf",
+                "Goldenfaf",
+                "1:07:44",
+                "https://imgur.com/a/sJ5IrpC",
+                "Yes"
+            ],
+            [
+                "7/27/2024 23:14:00",
+                "UnderDragon",
+                "UnderDragon",
+                "1:09:52",
+                "https://prnt.sc/ToOi_pLxtinb",
+                "Yes"
+            ],
+            [
+                "7/28/2024 2:02:44",
+                "Player696103392",
+                "Player696103392",
+                "1:15:47",
+                "https://imgur.com/a/8Fk0Fpb",
+                "Yes"
+            ],
+            [
+                "7/27/2024 13:16:52",
+                "InfinityLake",
+                "Infinity_Lake",
+                "1:19:30",
+                "https://imgur.com/a/ZuQ3xuN",
+                "Yes"
+            ],
+            [
+                "7/30/2024 19:06:00",
+                "ALSIHCT",
+                "ALSIHCT",
+                "1:21:54",
+                "https://prnt.sc/DD4EhpsDslnN",
+                "Yes"
+            ],
+            [
+                "7/27/2024 13:09:03",
+                "Keehle",
+                "keehle",
+                "1:24:02",
+                "https://imgur.com/a/v9syZtk",
+                "Yes"
+            ],
+            [
+                "7/27/2024 8:51:27",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "1:24:09",
+                "https://imgur.com/a/03awNSb",
+                "Yes"
+            ],
+            [
+                "7/26/2024 17:47:59",
+                "NagKai",
+                "NagKai",
+                "1:25:26",
+                "https://discord.com/channels/912804360331874355/1249796816254533665/1266540794874167307",
+                "Yes"
+            ],
+            [
+                "7/29/2024 8:59:24",
+                "te_79",
+                "te_79",
+                "1:33:21",
+                "https://imgur.com/a/aqNI6oq",
+                "Yes"
+            ],
+            [
+                "7/28/2024 21:20:05",
+                "Jitio",
+                "Jitio",
+                "1:40:28",
+                "https://www.twitch.tv/videos/2209053302",
+                "Yes"
+            ],
+            [
+                "7/27/2024 9:28:43",
+                "tsensaw",
+                "tsensaw",
+                "1:40:51",
+                "https://imgur.com/a/hZ13xca",
+                "Yes"
+            ],
+            [
+                "7/27/2024 18:45:24",
+                "pikmike",
+                "pikmike",
+                "1:41:15",
+                "https://imgur.com/a/wGohkQL",
+                "Yes"
+            ],
+            [
+                "7/27/2024 16:02:00",
+                "\u5251\u4e0a\u5fcd",
+                "\u5251\u4e0a\u5fcd",
+                "1:57:41",
+                "https://prnt.sc/0IRWwZEKzTEn",
+                "Yes"
+            ],
+            [
+                "7/27/2024 23:07:56",
+                "Pip",
+                "pipadmin",
+                "2:10:13",
+                "https://imgur.com/zdYg1B1",
+                "Yes"
+            ],
+            [
+                "7/28/2024 14:51:00",
+                "\u9b54\u672f\u83c7",
+                "\u9b54\u672f\u83c7",
+                "2:19:22",
+                "https://prnt.sc/K6V5mpPf2t4A",
+                "Yes"
+            ],
+            [
+                "7/27/2024 5:53:22",
+                "BloodyOrange",
+                ".bloodyorange",
+                "2:21:32",
+                "https://imgur.com/a/Wg1hcuH",
+                "Yes"
+            ],
+            [
+                "7/29/2024 11:20:14",
+                "Wojowu",
+                "wojowu",
+                "2:34:33",
+                "https://prnt.sc/YjNzw8gsUIb5",
+                "Yes"
             ]
         ]
     },
@@ -6585,8 +7113,406 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Mid Expert",
             "releaseAt": 1722016800,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 12
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your username?",
+                "What is your discord username?",
+                "What was your time?",
+                "Submit a link to your journal image or video here!",
+                "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "7/27/2024 14:00:03",
+                "Appels",
+                "appelsappelsappels",
+                "25:56",
+                "https://youtu.be/uy8daMdPkNg",
+                "Yes"
+            ],
+            [
+                "7/26/2024 14:02:57",
+                "olive",
+                "olive__r",
+                "25:59",
+                "https://imgur.com/a/w28LUzz",
+                "Yes"
+            ],
+            [
+                "7/27/2024 17:25:14",
+                "Parrot Dash",
+                "parrotdash",
+                "31:01",
+                "https://www.twitch.tv/videos/2209111601",
+                "Yes"
+            ],
+            [
+                "7/26/2024 15:30:23",
+                "unfandemcmillen",
+                "unfandemcmillen",
+                "30:10 (no video)",
+                "https://imgur.com/a/0Q06m01",
+                "Yes"
+            ],
+            [
+                "7/27/2024 20:42:47",
+                "WoahE",
+                "woahegg",
+                "35:00",
+                "https://www.twitch.tv/videos/2209261526",
+                "Yes"
+            ],
+            [
+                "7/27/2024 4:49:30",
+                "\u4e09\u601d",
+                "\u4e09\u601dsansi",
+                "40:03",
+                "https://www.bilibili.com/video/BV1xx4y1s7m4",
+                "Yes"
+            ],
+            [
+                "7/27/2024 3:30:38",
+                "Guest_",
+                "Guest_",
+                "41:03",
+                "https://imgur.com/a/lb3mMMa",
+                "Yes"
+            ],
+            [
+                "7/30/2024 8:42:58",
+                "ZKB",
+                "zkb_",
+                "41:35",
+                "https://imgur.com/a/celeste-sightreading-competition-AvOiFAl",
+                "Yes"
+            ],
+            [
+                "7/30/2024 11:35:46",
+                "lem",
+                "lemqns",
+                "42:53",
+                "https://prnt.sc/XQIxQBKFHp2W",
+                "Yes"
+            ],
+            [
+                "7/26/2024 17:59:43",
+                "Rafix",
+                "rafix8179",
+                "43:25",
+                "https://imgur.com/a/Fm5d7Xf",
+                "Yes"
+            ],
+            [
+                "7/30/2024 11:00:52",
+                "juckter",
+                "juckter",
+                "52:20",
+                "https://youtu.be/pstZ4TnflgU",
+                "Yes"
+            ],
+            [
+                "7/28/2024 21:12:32",
+                "JustinTime",
+                "JustinTime",
+                "52:50",
+                "https://imgur.com/a/csc-maps-GkJvTxW",
+                "Yes"
+            ],
+            [
+                "7/27/2024 3:51:00",
+                "He2D",
+                "He2D",
+                "55:24",
+                "https://prnt.sc/wwG5-uYmCwGW",
+                "Yes"
+            ],
+            [
+                "7/26/2024 14:33:29",
+                "Cookie",
+                "catastrophic_cookie",
+                "58:17",
+                "https://imgur.com/gallery/csc-week-7-pelagic-ruins-HS1uK1Y",
+                "Yes"
+            ],
+            [
+                "7/28/2024 19:39:56",
+                "leiz123321",
+                "leiz123321",
+                "58:33",
+                "https://www.youtube.com/watch?v=ogM62xv2XTE&ab_channel=LeiZ",
+                "Yes"
+            ],
+            [
+                "7/26/2024 15:20:12",
+                "10PercentPig",
+                "10percentpig",
+                "58:43",
+                "https://prnt.sc/9b1OEQRv7qG_",
+                "Yes"
+            ],
+            [
+                "7/28/2024 10:22:38",
+                "Sir Jiggle",
+                "Sir Jiggle",
+                "59:00",
+                "https://prnt.sc/fB4ZZQASQj2n",
+                "Yes"
+            ],
+            [
+                "7/30/2024 11:37:53",
+                "DataSmasher327",
+                "DataSmasher327",
+                "1:00:21",
+                "https://imgur.com/a/T8qzIW1",
+                "Yes"
+            ],
+            [
+                "7/29/2024 14:00:35",
+                "Froggo",
+                "froggo____",
+                "1:00:25",
+                "https://prnt.sc/30CN93f15IE_",
+                "Yes"
+            ],
+            [
+                "7/30/2024 6:38:14",
+                "BS_KNK",
+                "celebes_knk",
+                "1:00:53",
+                "https://www.twitch.tv/videos/2209635401",
+                "Yes"
+            ],
+            [
+                "7/30/2024 2:09:37",
+                "conski",
+                "conski_",
+                "1:01:20",
+                "https://youtu.be/z9u8vhukMD8?si=HtNjgmKKFVk0-F0k",
+                "Yes"
+            ],
+            [
+                "7/28/2024 21:19:03",
+                "Ecl1psed",
+                "Ecl1psed",
+                "1:02:05",
+                "https://imgur.com/a/Jehn3O3",
+                "Yes"
+            ],
+            [
+                "7/27/2024 20:03:00",
+                "Bread",
+                "Bread",
+                "1:02:11",
+                "https://prnt.sc/D_0kzugBTIS7",
+                "Yes"
+            ],
+            [
+                "7/27/2024 2:08:55",
+                "ArvingoPro",
+                "ArvingoPro",
+                "1:04:32",
+                "https://imgur.com/RiH0dv8",
+                "Yes"
+            ],
+            [
+                "7/29/2024 20:02:09",
+                "nonoji(\u306e\u306e\u5b57)",
+                "Non0ji",
+                "1:08:21",
+                "https://imgur.com/a/a77naj5",
+                "Yes"
+            ],
+            [
+                "7/30/2024 7:10:13",
+                "OSoverspike",
+                "osoverspike",
+                "1:10:46",
+                "https://youtu.be/AepAznVTa-k",
+                "Yes"
+            ],
+            [
+                "7/27/2024 10:20:00",
+                "bits\u50cf\u7d20",
+                "bits\u50cf\u7d20",
+                "1:11:26",
+                "https://prnt.sc/dU_fzz_2fLBU",
+                "Yes"
+            ],
+            [
+                "7/27/2024 3:40:00",
+                "\u65af\u5854",
+                "\u65af\u5854",
+                "1:11:39",
+                "https://prnt.sc/JGC2aAr4rbuy",
+                "Yes"
+            ],
+            [
+                "7/27/2024 11:57:56",
+                "Nyan",
+                "ppnyan",
+                "1:11:45",
+                "https://prnt.sc/kDjMgLaZhQKU",
+                "Yes"
+            ],
+            [
+                "7/28/2024 2:03:21",
+                "Player696103392",
+                "Player696103392",
+                "1:17:51",
+                "https://imgur.com/a/8Fk0Fpb",
+                "Yes"
+            ],
+            [
+                "7/29/2024 23:09:25",
+                "Scrubz",
+                "Scrubz",
+                "1:21:41",
+                "https://youtu.be/9F4VO2H-S7M",
+                "Yes"
+            ],
+            [
+                "7/30/2024 20:09:00",
+                "\u554a\u9e3f\u5440i",
+                "\u554a\u9e3f\u5440i",
+                "1:25:31",
+                "https://prnt.sc/EUl1EgqklRH4",
+                "Yes"
+            ],
+            [
+                "7/28/2024 0:01:00",
+                "SheKong",
+                "SheKong",
+                "1:25:56",
+                "https://prnt.sc/NO-phlQiW8nk",
+                "Yes"
+            ],
+            [
+                "7/27/2024 13:22:21",
+                "Adam Korinek",
+                "Adam Korinek",
+                "1:40:22",
+                "https://prnt.sc/dJY_H0W4YWSW",
+                "Yes"
+            ],
+            [
+                "7/27/2024 14:09:00",
+                "\u4e0d\u8bb0\u5f97\u5bc6\u7801",
+                "\u4e0d\u8bb0\u5f97\u5bc6\u7801",
+                "1:45:11",
+                "https://prnt.sc/IrUIXsqU3FZx",
+                "Yes"
+            ],
+            [
+                "7/27/2024 23:05:00",
+                "\u65e0\u60c5\u76841up\u673a\u5668",
+                "\u65e0\u60c5\u76841up\u673a\u5668",
+                "1:48:18",
+                "https://prnt.sc/vOQg4iVS0eT5",
+                "Yes"
+            ],
+            [
+                "7/30/2024 11:32:49",
+                "Goldenfaf",
+                "Goldenfaf",
+                "1:56:35",
+                "https://imgur.com/a/sJ5IrpC",
+                "Yes"
+            ],
+            [
+                "7/26/2024 17:36:47",
+                "Pixel_Yosh",
+                "Pixel_Yosh",
+                "2:01:04",
+                "https://imgur.com/7vMxJCW",
+                "Yes"
+            ],
+            [
+                "7/28/2024 20:02:09",
+                "im_pickle_sus",
+                "im_pickle_sus",
+                "2:06:59",
+                "https://imgur.com/a/osQxv1K",
+                "Yes"
+            ],
+            [
+                "7/28/2024 14:17:00",
+                "zhujiao",
+                "zhujiao",
+                "2:12:39",
+                "https://prnt.sc/yrIyeQNMIBl9",
+                "Yes"
+            ],
+            [
+                "7/29/2024 8:57:07",
+                "te_79",
+                "te_79",
+                "2:41:51",
+                "https://imgur.com/a/1gqF5rQ",
+                "Yes"
+            ],
+            [
+                "7/30/2024 19:08:00",
+                "ALSIHCT",
+                "ALSIHCT",
+                "2:50:31",
+                "https://prnt.sc/0VAdO50KyyWX",
+                "Yes"
+            ],
+            [
+                "7/28/2024 21:07:28",
+                "NagKai",
+                "NagKai",
+                "2:51:33",
+                "https://discord.com/channels/912804360331874355/1249796816254533665/1267317250331771032",
+                "Yes"
+            ],
+            [
+                "7/27/2024 13:05:22",
+                "Keehle",
+                "keehle",
+                "3:01:16",
+                "https://imgur.com/a/yp3yGCP",
+                "Yes"
+            ],
+            [
+                "7/27/2024 6:29:25",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "3:18:05",
+                "https://imgur.com/a/LfYxqj4",
+                "Yes"
+            ],
+            [
+                "7/27/2024 17:56:41",
+                "Pip",
+                "pipadmin",
+                "3:22:07",
+                "https://imgur.com/7yM8qlK",
+                "Yes"
+            ]
+        ]
+    },
+    {
+        "name": "map13",
+        "map_data": {
+            "name": "Take a Rest!",
+            "authors": [
+                {
+                    "name": "Santa's Wishes",
+                    "discord": "WorkshopElder33",
+                    "avatarurl": "Assets/map_image/santa.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map13.png",
+            "gamebananaurl": "https://gamebanana.com/mods/527340",
+            "description": "Ranking Criteria: Most Rest",
+            "difficulty": "Stargazing",
+            "releaseAt": 1722621600,
+            "isCurrent": true,
+            "order": 13
         },
         "csv_data": [
             [
