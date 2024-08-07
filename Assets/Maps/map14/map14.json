@@ -1,0 +1,17 @@
+{
+  "name": "Altered Tower Remnants",
+  "authors": [
+    {
+      "name": "Nyan",
+      "discord": "ppnyan",
+      "avatarurl": "Assets/map_image/nyan.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map14.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/532531",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Expert",
+  "releaseAt": 1723226400,
+  "isCurrent": true,
+  "order": 14
+}

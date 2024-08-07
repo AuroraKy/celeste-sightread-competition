@@ -1,0 +1,17 @@
+{
+  "name": "Oblivion",
+  "authors": [
+    {
+      "name": "Star Sapphire",
+      "discord": "star_sapphirearis",
+      "avatarurl": "Assets/map_image/sapphire.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map15.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/518854",
+  "description": "Ranking Criteria: Lowest Time/Furthest Room",
+  "difficulty": "Red Grandmaster",
+  "releaseAt": 1723226400,
+  "isCurrent": true,
+  "order": 15
+}

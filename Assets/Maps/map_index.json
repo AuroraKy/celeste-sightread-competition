@@ -7504,6 +7504,66 @@
         ]
     },
     {
+        "name": "map15",
+        "map_data": {
+            "name": "Oblivion",
+            "authors": [
+                {
+                    "name": "Star Sapphire",
+                    "discord": "star_sapphirearis",
+                    "avatarurl": "Assets/map_image/sapphire.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map15.png",
+            "gamebananaurl": "https://gamebanana.com/mods/518854",
+            "description": "Ranking Criteria: Lowest Time/Furthest Room",
+            "difficulty": "Red Grandmaster",
+            "releaseAt": 1723226400,
+            "isCurrent": true,
+            "order": 15
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
+            ]
+        ]
+    },
+    {
+        "name": "map14",
+        "map_data": {
+            "name": "Altered Tower Remnants",
+            "authors": [
+                {
+                    "name": "Nyan",
+                    "discord": "ppnyan",
+                    "avatarurl": "Assets/map_image/nyan.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map14.png",
+            "gamebananaurl": "https://gamebanana.com/mods/532531",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Expert",
+            "releaseAt": 1723226400,
+            "isCurrent": true,
+            "order": 14
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
+            ]
+        ]
+    },
+    {
         "name": "map13",
         "map_data": {
             "name": "Take a Rest!",
@@ -7519,7 +7579,7 @@
             "description": "Ranking Criteria: Most Rest",
             "difficulty": "Stargazing",
             "releaseAt": 1722621600,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 13
         },
         "csv_data": [
