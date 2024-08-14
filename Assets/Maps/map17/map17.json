@@ -1,0 +1,17 @@
+{
+  "name": "I think I went outside",
+  "authors": [
+    {
+      "name": "nuwut/lea",
+      "discord": "nuwut",
+      "avatarurl": "Assets/map_image/lea.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map17.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/530394",
+  "description": "Ranking Criteria: Fewest Jumps/Furthest Room",
+  "difficulty": "Grandmaster",
+  "releaseAt": 1723831200,
+  "isCurrent": true,
+  "order": 17
+}

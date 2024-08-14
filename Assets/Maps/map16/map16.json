@@ -1,0 +1,17 @@
+{
+  "name": "Joyride Reef",
+  "authors": [
+    {
+      "name": "HiveMindsRule",
+      "discord": "hivemindsrule",
+      "avatarurl": "Assets/map_image/hivemind.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map16.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/535235",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Expert",
+  "releaseAt": 1723831200,
+  "isCurrent": true,
+  "order": 16
+}

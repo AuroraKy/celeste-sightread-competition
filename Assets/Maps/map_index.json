@@ -3094,6 +3094,36 @@
         ]
     },
     {
+        "name": "map16",
+        "map_data": {
+            "name": "Joyride Reef",
+            "authors": [
+                {
+                    "name": "HiveMindsRule",
+                    "discord": "hivemindsrule",
+                    "avatarurl": "Assets/map_image/hivemind.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map16.png",
+            "gamebananaurl": "https://gamebanana.com/mods/535235",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Expert",
+            "releaseAt": 1723831200,
+            "isCurrent": true,
+            "order": 16
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
+            ]
+        ]
+    },
+    {
         "name": "map11",
         "map_data": {
             "name": "Three Flowers",
@@ -4022,6 +4052,36 @@
                 "Room 1, 0:00",
                 "https://prnt.sc/1_aCR0fPmoCD",
                 "Yes"
+            ]
+        ]
+    },
+    {
+        "name": "map17",
+        "map_data": {
+            "name": "I think I went outside",
+            "authors": [
+                {
+                    "name": "nuwut/lea",
+                    "discord": "nuwut",
+                    "avatarurl": "Assets/map_image/lea.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map17.png",
+            "gamebananaurl": "https://gamebanana.com/mods/530394",
+            "description": "Ranking Criteria: Fewest Jumps/Furthest Room",
+            "difficulty": "Grandmaster",
+            "releaseAt": 1723831200,
+            "isCurrent": true,
+            "order": 17
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
             ]
         ]
     },
@@ -7519,17 +7579,161 @@
             "description": "Ranking Criteria: Lowest Time/Furthest Room",
             "difficulty": "Cracked Grandmaster",
             "releaseAt": 1723226400,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 15
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your last room reached + time? (view https://gamebanana.com/mods/518854 for more time instructions)",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "8/12/2024 22:04:40",
+                "ZKB",
+                "ZKB",
+                "Room 9, 3:53:16",
+                "https://youtu.be/kLWfvq4xkps",
+                "Yes"
+            ],
+            [
+                "8/12/2024 22:04:40",
+                "olive",
+                "olive__r",
+                "Room 8, 3:27:09",
+                "https://imgur.com/a/bH9J3HM",
+                "Yes"
+            ],
+            [
+                "8/12/2024 22:04:40",
+                "Appels",
+                "Appels",
+                "Room 7, 1:36:17",
+                "https://www.youtube.com/playlist?list=PLawalL_zhrPvcOxkl9qwqBdC638QgWh0R",
+                "Yes"
+            ],
+            [
+                "8/12/2024 18:06:06",
+                "Rafix",
+                "rafix#8179",
+                "Room 7, 1:43:24",
+                "https://imgur.com/a/dgfupUH",
+                "Yes"
+            ],
+            [
+                "8/11/2024 10:13:05",
+                "Cookie",
+                "catastrophic_cookie",
+                "Room 7, 1:49:29",
+                "https://imgur.com/gallery/csc-week-8-oblivion-Zplev35",
+                "Yes"
+            ],
+            [
+                "8/13/2024 12:51:52",
+                "BS_KNK",
+                "celebes_knk",
+                "Room 7, 1:52:02",
+                "https://i.imgur.com/z6nNVEt.png",
+                "Yes"
+            ],
+            [
+                "8/11/2024 3:59:05",
+                "Guest_",
+                "Guest_",
+                "Room 7, 2:14:33",
+                "https://imgur.com/a/Xis8GTa",
+                "Yes"
+            ],
+            [
+                "8/12/2024 7:47:58",
+                "Player696103392",
+                "Player696103392",
+                "Room 7, 2:17:40",
+                "https://imgur.com/a/yODsZrB",
+                "Yes"
+            ],
+            [
+                "8/11/2024 14:58:39",
+                "leiz123321",
+                "leiz123321",
+                "Room 6, 3:13:52",
+                "https://imgur.com/a/0DvCBex",
+                "Yes"
+            ],
+            [
+                "8/10/2024 0:45:51",
+                "-Undefined-",
+                "._undefined_",
+                "Room 5, 3:01:28",
+                "https://imgur.com/a/cedTovr",
+                "Yes"
+            ],
+            [
+                "8/13/2024 11:56:17",
+                "juckter",
+                "juckter",
+                "Room 4, 35:35",
+                "https://imgur.com/a/hqiy4uj",
+                "Yes"
+            ],
+            [
+                "8/13/2024 11:49:36",
+                "Scrubz",
+                "Scrubz",
+                "Room 4, 48:51",
+                "https://youtu.be/KxxSxjtuGrE",
+                "Yes"
+            ],
+            [
+                "8/12/2024 14:37:17",
+                "\u4e0d\u8bb0\u5f97\u5bc6\u7801",
+                "\u4e0d\u8bb0\u5f97\u5bc6\u7801",
+                "Room 4, 1:00:25",
+                "https://prnt.sc/w5_xiKfynKEI",
+                "Yes"
+            ],
+            [
+                "8/13/2024 14:06:47",
+                "lem",
+                "lemqns",
+                "Room 3, 46:56",
+                "https://prnt.sc/2pzXEBglh2pL",
+                "Yes"
+            ],
+            [
+                "8/12/2024 14:37:17",
+                "Moladan",
+                "Moladan",
+                "Room 2, 2:11",
+                "https://discord.com/channels/912804360331874355/1249796816254533665/1272654888073171127",
+                "Yes"
+            ],
+            [
+                "8/13/2024 7:37:27",
+                "te_79",
+                "te_79",
+                "Room 2, 2:31",
+                "https://imgur.com/a/ZSDGV5P",
+                "Yes"
+            ],
+            [
+                "8/12/2024 9:02:05",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "Room 2, 4:50",
+                "https://imgur.com/a/Cj4TokM",
+                "Yes"
+            ],
+            [
+                "8/12/2024 9:02:05",
+                "Nyan",
+                "Nyan",
+                "Room 0, 0:00",
+                "https://gamebanana.com/mods/378028",
+                "Yes"
             ]
         ]
     },
@@ -7549,17 +7753,265 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Expert",
             "releaseAt": 1723226400,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 14
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your time?",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "8/9/2024 14:58:54",
+                "olive",
+                "olive__r",
+                "43:07",
+                "https://imgur.com/a/w5F4KPF",
+                "Yes"
+            ],
+            [
+                "8/12/2024 18:04:14",
+                "Rafix",
+                "rafix#8179",
+                "45:11",
+                "https://imgur.com/a/m7uCkkI",
+                "Yes"
+            ],
+            [
+                "8/11/2024 4:50:51",
+                "Guest_",
+                "Guest_",
+                "46:37",
+                "https://youtu.be/WRClBvbPzyU",
+                "Yes"
+            ],
+            [
+                "8/10/2024 2:05:43",
+                "unfandemcmillen",
+                "unfandemcmillen",
+                "44:29 (no vid)",
+                "https://imgur.com/a/5FsB2QL",
+                "Yes"
+            ],
+            [
+                "8/13/2024 19:55:03",
+                "ZKB",
+                "ZKB",
+                "48:29",
+                "https://youtu.be/vNiVEoNJhj8",
+                "Yes"
+            ],
+            [
+                "8/13/2024 19:55:03",
+                "bits\u50cf\u7d20",
+                "bits\u50cf\u7d20",
+                "54:59",
+                "https://prnt.sc/tK4L_tpKTBfB",
+                "Yes"
+            ],
+            [
+                "8/13/2024 19:55:03",
+                "Appels",
+                "Appels",
+                "56:27",
+                "https://youtu.be/gnNV82OjjGA",
+                "Yes"
+            ],
+            [
+                "8/11/2024 10:10:17",
+                "Cookie",
+                "catastrophic_cookie",
+                "56:52",
+                "https://imgur.com/gallery/csc-week-8-altered-tower-remnants-uVGLkyG",
+                "Yes"
+            ],
+            [
+                "8/9/2024 15:17:57",
+                "DataSmasher327",
+                "DataSmasher327",
+                "1:04:07",
+                "https://imgur.com/a/pDfaoK5",
+                "Yes"
+            ],
+            [
+                "8/10/2024 12:51:56",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "1:04:56",
+                "https://cdn.discordapp.com/attachments/1249796816254533665/1271577619099549707/SPOILER_20240809211438_1.jpg?ex=66b88131&is=66b72fb1&hm=9a95fe45a2d37ffbf4e641eef088f6c500fc98bd091f0812f46b4e173945520a&",
+                "Yes"
+            ],
+            [
+                "8/13/2024 9:02:22",
+                "Parrot Dash",
+                "parrotdash",
+                "1:06:45",
+                "https://prnt.sc/IzdYuH9Hvhea",
+                "Yes"
+            ],
+            [
+                "8/13/2024 6:45:25",
+                "BS_KNK",
+                "celebes_knk",
+                "1:15:48",
+                "https://i.imgur.com/vvghP0v.png",
+                "Yes"
+            ],
+            [
+                "8/13/2024 19:55:03",
+                "Bread",
+                "Bread",
+                "1:16:44",
+                "https://prnt.sc/ML2Mj13yBr-j",
+                "Yes"
+            ],
+            [
+                "8/11/2024 9:46:16",
+                "leiz123321",
+                "leiz123321",
+                "1:17:20",
+                "https://imgur.com/a/rHAEXL5",
+                "Yes"
+            ],
+            [
+                "8/11/2024 4:49:13",
+                "AmberBolt",
+                "amber_bolt",
+                "1:19:16",
+                "https://youtu.be/HIW_GrXjERk",
+                "Yes"
+            ],
+            [
+                "8/13/2024 13:14:51",
+                "lem",
+                "lemqns",
+                "1:21:56",
+                "https://prnt.sc/Z0zjaULW0jdu",
+                "Yes"
+            ],
+            [
+                "8/13/2024 19:55:03",
+                "OSoverspike",
+                "osoverspike",
+                "1:22:01",
+                "https://youtu.be/9HpYGUoNVmE",
+                "Yes"
+            ],
+            [
+                "8/10/2024 12:57:14",
+                "nonoji(\u306e\u306e\u5b57)",
+                "Non0ji",
+                "1:22:57",
+                "https://imgur.com/a/WzgQ1x9",
+                "Yes"
+            ],
+            [
+                "8/9/2024 17:39:54",
+                "Adam Korinek",
+                "Adam Korinek",
+                "1:28:07",
+                "https://prnt.sc/JWWz2zi-DJH6",
+                "Yes"
+            ],
+            [
+                "8/13/2024 11:55:50",
+                "juckter",
+                "juckter",
+                "1:28:50",
+                "https://imgur.com/a/hqiy4uj",
+                "Yes"
+            ],
+            [
+                "8/13/2024 19:55:03",
+                "\u554a\u9e3f\u5440i",
+                "\u554a\u9e3f\u5440i",
+                "1:39:39",
+                "https://prnt.sc/j4F-6o_CSXw0",
+                "Yes"
+            ],
+            [
+                "8/12/2024 7:47:05",
+                "Player696103392",
+                "Player696103392",
+                "1:42:43",
+                "https://imgur.com/a/yODsZrB",
+                "Yes"
+            ],
+            [
+                "8/12/2024 15:38:58",
+                "Tnt_go_bang",
+                "tntgobang",
+                "1:44:14",
+                "https://imgur.com/a/kFHfNUj",
+                "Yes"
+            ],
+            [
+                "8/13/2024 19:55:03",
+                "\u4e0d\u8bb0\u5f97\u5bc6\u7801",
+                "\u4e0d\u8bb0\u5f97\u5bc6\u7801",
+                "1:54:10",
+                "https://prnt.sc/wzjYAhAMcMCS",
+                "Yes"
+            ],
+            [
+                "8/13/2024 11:49:34",
+                "Scrubz",
+                "Scrubz",
+                "1:54:36",
+                "https://youtu.be/KxxSxjtuGrE",
+                "Yes"
+            ],
+            [
+                "8/12/2024 15:51:40",
+                "Pixel_Yosh",
+                "Pixel_Yosh",
+                "1:55:24",
+                "https://imgur.com/77ICpfa",
+                "Yes"
+            ],
+            [
+                "8/13/2024 7:34:42",
+                "te_79",
+                "te_79",
+                "2:21:17",
+                "https://imgur.com/a/QNqdsdL",
+                "Yes"
+            ],
+            [
+                "8/11/2024 2:57:49",
+                "InfinityLake",
+                "infinity_lake",
+                "2:32:28",
+                "https://imgur.com/a/RgYwSnP",
+                "Yes"
+            ],
+            [
+                "8/13/2024 19:55:03",
+                "zhujiao",
+                "zhujiao",
+                "3:17:57",
+                "https://prnt.sc/Pm05FLNrodHU",
+                "Yes"
+            ],
+            [
+                "8/10/2024 3:31:02",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "3:35:54",
+                "https://imgur.com/a/6fZJR9W",
+                "Yes"
+            ],
+            [
+                "8/10/2024 5:57:36",
+                "Keehle",
+                "keehle",
+                "3:42:16",
+                "https://imgur.com/a/mquzg5Q",
+                "Yes"
             ]
         ]
     },
