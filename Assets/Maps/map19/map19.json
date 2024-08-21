@@ -1,0 +1,17 @@
+{
+  "name": "MZE Checkpoint 2",
+  "authors": [
+    {
+      "name": "Lichtbaulb",
+      "discord": "lichtbaulb",
+      "avatarurl": "Assets/map_image/lichtbaulb.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map19.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/529206",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Grandmaster",
+  "releaseAt": 1724436000,
+  "isCurrent": true,
+  "order": 19
+}
