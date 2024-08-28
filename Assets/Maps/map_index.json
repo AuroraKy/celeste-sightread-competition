@@ -3101,7 +3101,7 @@
                 {
                     "name": "HiveMindsRule",
                     "discord": "hivemindsrule",
-                    "avatarurl": "Assets/map_image/hivemind.png"
+                    "avatarurl": "Assets/map_image/hiveminds.png"
                 }
             ],
             "imageurl": "Assets/map_image/map16.png",
@@ -3961,8 +3961,124 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Expert",
             "releaseAt": 1724436000,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 18
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your username?",
+                "What is your discord username?",
+                "What was your time?",
+                "Submit a link to your journal image or video here!",
+                "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "8/25/2024 8:39:55",
+                "Bread",
+                "Bread",
+                "47:11",
+                "https://prnt.sc/Lrbrr9L93DUp",
+                "Yes"
+            ],
+            [
+                "8/25/2024 8:39:55",
+                "Guest_",
+                "Guest_",
+                "53:10",
+                "https://www.youtube.com/playlist?list=PLR63VmDdmhFDifFfGfhXPnbNZ65fhXOz8",
+                "Yes"
+            ],
+            [
+                "8/23/2024 16:42:42",
+                "Appels",
+                "appelsappelsappels",
+                "1:01:27",
+                "https://youtu.be/fZ4mP4zawok",
+                "Yes"
+            ],
+            [
+                "8/25/2024 13:18:28",
+                "lem",
+                "lemqns",
+                "1:26:55",
+                "https://prnt.sc/K0tdVUJLlSWK",
+                "Yes"
+            ],
+            [
+                "8/23/2024 14:08:13",
+                "juckter",
+                "juckter",
+                "1:46:48",
+                "https://prnt.sc/qFLrNBij0cMH",
+                "Yes"
+            ],
+            [
+                "8/26/2024 11:56:06",
+                "Player696103392",
+                "Player696103392",
+                "2:25:50",
+                "https://imgur.com/a/v6LDutD",
+                "Yes"
+            ],
+            [
+                "8/25/2024 14:04:28",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "3:03:14",
+                "https://imgur.com/a/27zQDUF",
+                "Yes"
+            ]
+        ]
+    },
+    {
+        "name": "map20",
+        "map_data": {
+            "name": "Underscore",
+            "authors": [
+                {
+                    "name": "CoolBread",
+                    "discord": "breadtheslime",
+                    "avatarurl": "Assets/map_image/coolbread.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map20.png",
+            "gamebananaurl": "https://gamebanana.com/mods/529206",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Advanced",
+            "releaseAt": 1724954400,
+            "isCurrent": true,
+            "order": 20
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
+            ]
+        ]
+    },
+    {
+        "name": "map21",
+        "map_data": {
+            "name": "Storming Seaside",
+            "authors": [
+                {
+                    "name": "Tnt_go_bang",
+                    "discord": "tntgobang",
+                    "avatarurl": "Assets/map_image/tnt.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map21.png",
+            "gamebananaurl": "https://gamebanana.com/mods/529206",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Mid Expert",
+            "releaseAt": 1724954400,
+            "isCurrent": true,
+            "order": 21
         },
         "csv_data": [
             [
@@ -3991,17 +4107,49 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Grandmaster",
             "releaseAt": 1724436000,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 19
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your time?",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "8/23/2024 16:43:48",
+                "Appels",
+                "appelsappelsappels",
+                "1:07:09",
+                "https://youtu.be/fZ4mP4zawok",
+                "Yes"
+            ],
+            [
+                "8/25/2024 8:41:51",
+                "Guest_",
+                "Guest_",
+                "1:09:03",
+                "https://www.youtube.com/playlist?list=PLR63VmDdmhFDifFfGfhXPnbNZ65fhXOz8",
+                "Yes"
+            ],
+            [
+                "8/26/2024 11:58:41",
+                "Player696103392",
+                "Player696103392",
+                "1:15:29",
+                "https://imgur.com/a/v6LDutD",
+                "Yes"
+            ],
+            [
+                "8/25/2024 21:58:00",
+                "lem",
+                "lemqns",
+                "1:49:33",
+                "https://prnt.sc/v9fv-6vKDGI0",
+                "Yes"
             ]
         ]
     },

@@ -1,0 +1,17 @@
+{
+  "name": "Underscore",
+  "authors": [
+    {
+      "name": "CoolBread",
+      "discord": "breadtheslime",
+      "avatarurl": "Assets/map_image/coolbread.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map20.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/529206",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Advanced",
+  "releaseAt": 1724954400,
+  "isCurrent": true,
+  "order": 20
+}
