@@ -9,7 +9,7 @@
   ],
   "imageurl": "Assets/map_image/map20.png", 
   "gamebananaurl": "https://gamebanana.com/mods/538535",
-  "description": "Ranking Criteria: Death Count",
+  "description": "Ranking Criteria: Lowest Deaths",
   "difficulty": "Advanced",
   "releaseAt": 1725040800,
   "isCurrent": true,
