@@ -1,0 +1,17 @@
+{
+  "name": "Prologue With A Single Dash",
+  "authors": [
+    {
+      "name": "Lirachonyr",
+      "discord": "lirachonyr",
+      "avatarurl": "Assets/map_image/lira.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map23.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/529338",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Orange Advanced",
+  "releaseAt": 1725688800,
+  "isCurrent": true,
+  "order": 23
+}
