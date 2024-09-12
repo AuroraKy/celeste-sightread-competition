@@ -1,0 +1,17 @@
+{
+  "name": "Brazil (Alternate Take)",
+  "authors": [
+    {
+      "name": "Tear",
+      "discord": "tear.underscore",
+      "avatarurl": "Assets/map_image/tear.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map24.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/537231",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Advanced",
+  "releaseAt": 1726250400,
+  "isCurrent": true,
+  "order": 24
+}

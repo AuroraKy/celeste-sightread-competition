@@ -1,0 +1,17 @@
+{
+  "name": "Mandy Candy",
+  "authors": [
+    {
+      "name": "SummitBadeline",
+      "discord": "summitbadeline",
+      "avatarurl": "Assets/map_image/badeline.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map25.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/532085",
+  "description": "Ranking Criteria: Lowest Deaths",
+  "difficulty": "Pink Expert",
+  "releaseAt": 1726250400,
+  "isCurrent": true,
+  "order": 25
+}
