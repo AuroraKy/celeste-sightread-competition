@@ -12,6 +12,6 @@
   "description": "Ranking Criteria: Lowest Time",
   "difficulty": "Pink Expert",
   "releaseAt": 1726250400,
-  "isCurrent": true,
+  "isCurrent": false,
   "order": 25
 }

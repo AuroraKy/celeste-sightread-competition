@@ -1,0 +1,17 @@
+{
+  "name": "Serendipity",
+  "authors": [
+    {
+      "name": "Daxaroodles",
+      "discord": "daxaroodles",
+      "avatarurl": "Assets/map_image/daxa.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map26.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/540630",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Advanced",
+  "releaseAt": 1726855200,
+  "isCurrent": true,
+  "order": 26
+}
