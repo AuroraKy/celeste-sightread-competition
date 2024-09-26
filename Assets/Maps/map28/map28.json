@@ -1,0 +1,17 @@
+{
+  "name": "In the Mirror",
+  "authors": [
+    {
+      "name": "Goldian",
+      "discord": "goldian",
+      "avatarurl": "Assets/map_image/goldian.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map28.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/543927",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Grandexpert",
+  "releaseAt": 1727460000,
+  "isCurrent": true,
+  "order": 28
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Psychedelic Sundown",
+  "authors": [
+    {
+      "name": "xolimono",
+      "discord": "xolimono",
+      "avatarurl": "Assets/map_image/xoli.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map27.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/543936",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Whimsical Advanced",
+  "releaseAt": 1727460000,
+  "isCurrent": true,
+  "order": 27
+}
