@@ -3388,6 +3388,36 @@
         ]
     },
     {
+        "name": "map29",
+        "map_data": {
+            "name": "Reality's Building Blocks",
+            "authors": [
+                {
+                    "name": "MateuszKus",
+                    "discord": "mateuszkus",
+                    "avatarurl": "Assets/map_image/mateusz.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map29.png",
+            "gamebananaurl": "https://gamebanana.com/mods/546303",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Cracked Advanced",
+            "releaseAt": 1728064800,
+            "isCurrent": true,
+            "order": 29
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
+            ]
+        ]
+    },
+    {
         "name": "map11",
         "map_data": {
             "name": "Three Flowers",
@@ -3967,11 +3997,195 @@
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your clear time?",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "9/28/2024 12:55:03",
+                "Appels",
+                "appelsappelsappels",
+                "14:17",
+                "https://youtu.be/uB9a_9pV1Ws",
+                "Yes"
+            ],
+            [
+                "9/27/2024 12:36:44",
+                "Cookie",
+                "catastrophic_cookie",
+                "15:36",
+                "https://imgur.com/gallery/csc-week-15-psychedelic-sundown-RxrrPmp",
+                "Yes"
+            ],
+            [
+                "9/28/2024 6:08:49",
+                "BS_KNK",
+                "celebes_knk",
+                "15:58",
+                "https://www.twitch.tv/videos/2262481237",
+                "Yes"
+            ],
+            [
+                "9/28/2024 3:12:31",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "14:22 (no vid)",
+                "https://cdn.discordapp.com/attachments/1249796816254533665/1289516123737559133/SPOILER_20240928091502_1.jpg?ex=66f91af9&is=66f7c979&hm=9595ab2ab14fea6219867d3bc15c40842b1313bb98ffd67011f9c926f4f6490b&",
+                "Yes"
+            ],
+            [
+                "9/28/2024 21:35:51",
+                "Guest_",
+                "Guest_",
+                "14:47 (no vid)",
+                "https://imgur.com/a/3MtJlIw",
+                "Yes"
+            ],
+            [
+                "10/1/2024 9:35:11",
+                "Parrot Dash",
+                "parrotdash",
+                "17:46",
+                "https://www.twitch.tv/videos/2265035089",
+                "Yes"
+            ],
+            [
+                "10/2/2024 0:48:21",
+                "Cr\u00e8meBr\u00fbl\u00e9e/ZKB",
+                "cremebrulees",
+                "18:26",
+                "https://imgur.com/a/celeste-sightreading-competition-AvOiFAl",
+                "Yes"
+            ],
+            [
+                "9/28/2024 8:52:42",
+                "unfandemcmillen",
+                "unfandemcmillen",
+                "18:36",
+                "https://imgur.com/a/t5ViJ3l",
+                "Yes"
+            ],
+            [
+                "9/29/2024 3:39:06",
+                "Player696103392",
+                "Player696103392",
+                "22:55",
+                "https://imgur.com/a/FiCapHr",
+                "Yes"
+            ],
+            [
+                "9/30/2024 0:34:57",
+                "juckter",
+                "juckter",
+                "23:56",
+                "https://prnt.sc/nSm8Ufn_B9mX",
+                "Yes"
+            ],
+            [
+                "9/27/2024 18:18:08",
+                "Toby",
+                "tc_28683",
+                "24:26",
+                "https://imgur.com/a/8UV0u75",
+                "Yes"
+            ],
+            [
+                "9/27/2024 13:57:55",
+                "Nyan",
+                "ppnyan",
+                "25:44",
+                "https://prnt.sc/z0DjwbjxSW6s",
+                "Yes"
+            ],
+            [
+                "9/27/2024 22:29:56",
+                "dewdrop",
+                "dewdrop.h",
+                "28:11",
+                "https://imgur.com/a/5XW5GpO",
+                "Yes"
+            ],
+            [
+                "9/28/2024 13:29:07",
+                "AmberBolt",
+                "amber_bolt",
+                "29:54",
+                "https://youtu.be/uQG90tx5A2w",
+                "Yes"
+            ],
+            [
+                "9/27/2024 12:52:46",
+                "rilp_",
+                "rilp_",
+                "30:38",
+                "https://imgur.com/a/WzFKyTw",
+                "Yes"
+            ],
+            [
+                "9/27/2024 13:36:25",
+                "Pixel_Yosh",
+                "Pixel_Yosh",
+                "37:32",
+                "https://imgur.com/AAENwMj",
+                "Yes"
+            ],
+            [
+                "9/28/2024 9:03:56",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "39:21",
+                "https://imgur.com/a/RLZKuLL",
+                "Yes"
+            ],
+            [
+                "9/30/2024 0:17:05",
+                "SRN",
+                "srn_rl",
+                "39:59",
+                "https://imgur.com/a/fhBIBsc",
+                "Yes"
+            ],
+            [
+                "9/28/2024 11:31:35",
+                "te_79",
+                "te_79",
+                "44:09",
+                "https://imgur.com/a/XODeICZ",
+                "Yes"
+            ],
+            [
+                "9/29/2024 16:37:43",
+                "NagKai",
+                "NagKai",
+                "45:03",
+                "https://discord.com/channels/912804360331874355/1249796816254533665/1290094859910254663",
+                "Yes"
+            ],
+            [
+                "9/28/2024 18:21:52",
+                "JazzyJonah",
+                "jazzyjonah",
+                "48:37",
+                "https://imgur.com/a/mmGBEbI",
+                "Yes"
+            ],
+            [
+                "10/1/2024 10:19:19",
+                "Scrubz",
+                "Scrubz",
+                "48:53",
+                "https://youtu.be/WOd7ygRQIeU",
+                "Yes"
+            ],
+            [
+                "9/30/2024 12:43:12",
+                "Terus",
+                "terus3289",
+                "53:52",
+                "https://prnt.sc/rBvvJODe8YnT",
+                "Yes"
             ]
         ]
     },
@@ -5615,11 +5829,123 @@
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your clear time?",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "9/27/2024 14:22:46",
+                "Cookie",
+                "catastrophic_cookie",
+                "50:54",
+                "https://youtu.be/ymQrCadtJqs",
+                "Yes"
+            ],
+            [
+                "10/1/2024 9:35:15",
+                "Parrot Dash",
+                "parrotdash",
+                "1:02:57",
+                "https://www.twitch.tv/videos/2265035089",
+                "Yes"
+            ],
+            [
+                "9/28/2024 6:09:50",
+                "BS_KNK",
+                "celebes_knk",
+                "1:08:25",
+                "https://www.twitch.tv/videos/2262481809",
+                "Yes"
+            ],
+            [
+                "9/28/2024 21:36:10",
+                "Guest_",
+                "Guest_",
+                "38:35 (no vid)",
+                "https://imgur.com/a/3MtJlIw",
+                "Yes"
+            ],
+            [
+                "9/28/2024 8:51:52",
+                "unfandemcmillen",
+                "unfandemcmillen",
+                "55:37 (no vid)",
+                "https://imgur.com/a/kcGUARD",
+                "Yes"
+            ],
+            [
+                "9/28/2024 5:30:21",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "1:11:06",
+                "https://cdn.discordapp.com/attachments/1249796816254533665/1289564620008456283/SPOILER_20240928122822_1.jpg?ex=66f94824&is=66f7f6a4&hm=2f8b022293e272c82c5cf7360f84d904d685b3f6d9a46ce221a836931dc6017e&",
+                "Yes"
+            ],
+            [
+                "9/29/2024 3:39:13",
+                "Player696103392",
+                "Player696103392",
+                "1:19:47",
+                "https://imgur.com/a/FiCapHr",
+                "Yes"
+            ],
+            [
+                "9/28/2024 13:30:47",
+                "AmberBolt",
+                "amber_bolt",
+                "1:29:11",
+                "https://youtu.be/KcDeusgZbmY",
+                "Yes"
+            ],
+            [
+                "9/30/2024 0:35:48",
+                "juckter",
+                "juckter",
+                "1:51:35",
+                "https://prnt.sc/8a0KFC8PMD4z",
+                "Yes"
+            ],
+            [
+                "9/30/2024 18:24:53",
+                "ProwriterX1",
+                "prowriterx1_90472",
+                "2:13:07",
+                "https://www.youtube.com/playlist?list=PLAreyC6noSIU-Olp8ITOEYOnVnbtsPsQL",
+                "Yes"
+            ],
+            [
+                "10/1/2024 13:53:48",
+                "Pixel_Yosh",
+                "Pixel_Yosh",
+                "3:38:21",
+                "https://imgur.com/BgZx0zT",
+                "Yes"
+            ],
+            [
+                "9/28/2024 9:04:55",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "4:09:02",
+                "https://imgur.com/a/yOLfIrb",
+                "Yes"
+            ],
+            [
+                "9/30/2024 11:13:27",
+                "NagKai",
+                "NagKai",
+                "4:39:37",
+                "https://discord.com/channels/912804360331874355/1249796816254533665/1290375384659001386",
+                "Yes"
+            ],
+            [
+                "9/28/2024 14:13:28",
+                "Appels",
+                "AppelsIsDisqualified",
+                "45:42 (touhoe accidentally gaslit appels into cheating)",
+                "https://youtu.be/Nd6uzN3AohU",
+                "Yes"
             ]
         ]
     },
@@ -8692,6 +9018,36 @@
                 "7:40:51",
                 "https://imgur.com/gallery/csc-2-hold-grab-to-shmove-DPvhm8X",
                 "Yes"
+            ]
+        ]
+    },
+    {
+        "name": "map30",
+        "map_data": {
+            "name": "Reality's Building Blocks",
+            "authors": [
+                {
+                    "name": "MateuszKus",
+                    "discord": "mateuszkus",
+                    "avatarurl": "Assets/map_image/mateusz2.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map30.png",
+            "gamebananaurl": "https://gamebanana.com/mods/546303",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Mid Expert",
+            "releaseAt": 1728064800,
+            "isCurrent": true,
+            "order": 30
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
             ]
         ]
     },

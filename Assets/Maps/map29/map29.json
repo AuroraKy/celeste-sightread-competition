@@ -1,0 +1,17 @@
+{
+  "name": "Reality's Building Blocks",
+  "authors": [
+    {
+      "name": "MateuszKus",
+      "discord": "mateuszkus",
+      "avatarurl": "Assets/map_image/mateusz.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map29.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/546303",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Cracked Advanced",
+  "releaseAt": 1728064800,
+  "isCurrent": true,
+  "order": 29
+}
