@@ -3390,7 +3390,7 @@
     {
         "name": "map29",
         "map_data": {
-            "name": "Reality's Building Blocks Checkpoint 1",
+            "name": "Reality's Building Blocks (Checkpoint 1)",
             "authors": [
                 {
                     "name": "MateuszKus",
@@ -4192,7 +4192,7 @@
     {
         "name": "map18",
         "map_data": {
-            "name": "MZE Checkpoint 1",
+            "name": "MZE (Checkpoint 1)",
             "authors": [
                 {
                     "name": "Lichtbaulb",
@@ -5256,7 +5256,7 @@
     {
         "name": "map19",
         "map_data": {
-            "name": "MZE Checkpoint 2",
+            "name": "MZE (Checkpoint 2)",
             "authors": [
                 {
                     "name": "Lichtbaulb (evil)",
@@ -9024,7 +9024,7 @@
     {
         "name": "map30",
         "map_data": {
-            "name": "Reality's Building Blocks Checkpoint 2",
+            "name": "Reality's Building Blocks (Checkpoint 2 to End)",
             "authors": [
                 {
                     "name": "MateuszKus",
