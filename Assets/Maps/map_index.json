@@ -3403,17 +3403,153 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Cracked Advanced",
             "releaseAt": 1728064800,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 29
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your time?",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "10/7/2024 13:38:57",
+                "Appels",
+                "appelsappelsappels",
+                "10:51",
+                "https://youtu.be/cZHzHYuD1Yk",
+                "Yes"
+            ],
+            [
+                "10/7/2024 13:05:16",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "12:07",
+                "https://www.youtube.com/watch?v=rZhhFKmYf84",
+                "Yes"
+            ],
+            [
+                "10/8/2024 11:48:31",
+                "Parrot Dash",
+                "Parrot Dash",
+                "12:48",
+                "https://www.twitch.tv/videos/2272089473",
+                "Yes"
+            ],
+            [
+                "10/4/2024 19:15:13",
+                "Guest_",
+                "Guest_",
+                "10:42 (no vid)",
+                "https://imgur.com/a/LHU9Bja",
+                "Yes"
+            ],
+            [
+                "10/6/2024 12:00:16",
+                "Cookie",
+                "catastrophic_cookie",
+                "13:01",
+                "https://youtu.be/nWNsbFQrtD4",
+                "Yes"
+            ],
+            [
+                "10/8/2024 11:48:31",
+                "Bread",
+                "Bread",
+                "14:24",
+                "https://prnt.sc/FMe5i0BNIYgb",
+                "Yes"
+            ],
+            [
+                "10/8/2024 4:42:16",
+                "DuckUwU",
+                "DuckUwU",
+                "16:10",
+                "https://imgur.com/a/GjK8ChM",
+                "Yes"
+            ],
+            [
+                "10/6/2024 4:44:44",
+                "Player696103392",
+                "Player696103392",
+                "17:45",
+                "https://imgur.com/a/gOIof56",
+                "Yes"
+            ],
+            [
+                "10/6/2024 7:58:34",
+                "AmberBolt",
+                "amber_bolt",
+                "17:54",
+                "https://youtu.be/umGGYP5fOb4",
+                "Yes"
+            ],
+            [
+                "10/5/2024 18:01:32",
+                "Pixel_Yosh",
+                "Pixel_Yosh",
+                "20:15",
+                "https://imgur.com/In5cboe",
+                "Yes"
+            ],
+            [
+                "10/4/2024 12:56:33",
+                "juckter",
+                "juckter",
+                "23:11",
+                "https://prnt.sc/RQIFPTH_h75o",
+                "Yes"
+            ],
+            [
+                "10/4/2024 15:52:07",
+                "GlerG",
+                "glerg",
+                "26:46",
+                "https://imgur.com/a/pPJbaVB",
+                "Yes"
+            ],
+            [
+                "10/6/2024 14:40:02",
+                "Wojowu",
+                "wojowu",
+                "29:25",
+                "https://prnt.sc/3MYokr9595zK",
+                "Yes"
+            ],
+            [
+                "10/8/2024 11:48:31",
+                "NagKai",
+                "NagKai",
+                "29:51",
+                "https://discord.com/channels/912804360331874355/1249796816254533665/1293283652091904073",
+                "Yes"
+            ],
+            [
+                "10/5/2024 11:53:26",
+                "Keehle",
+                "keehle",
+                "31:46",
+                "https://imgur.com/a/61ffji7",
+                "Yes"
+            ],
+            [
+                "10/4/2024 14:34:57",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "32:40",
+                "https://imgur.com/a/VVrWbD4",
+                "Yes"
+            ],
+            [
+                "10/4/2024 13:59:24",
+                "Toby",
+                "tc_28683",
+                "1:25:06",
+                "https://imgur.com/a/WBVK46O",
+                "Yes"
             ]
         ]
     },
@@ -4065,6 +4201,14 @@
                 "unfandemcmillen",
                 "18:36",
                 "https://imgur.com/a/t5ViJ3l",
+                "Yes"
+            ],
+            [
+                "9/30/2024 12:43:12",
+                "Bread",
+                "Bread",
+                "19:00",
+                "https://prnt.sc/FjKx6khAdOID",
                 "Yes"
             ],
             [
@@ -5868,10 +6012,18 @@
                 "Yes"
             ],
             [
+                "9/28/2024 14:13:28",
+                "Bread",
+                "Bread",
+                "46:18 (no vid)",
+                "https://prnt.sc/mfzAI3qgklIN",
+                "Yes"
+            ],
+            [
                 "9/28/2024 8:51:52",
                 "unfandemcmillen",
                 "unfandemcmillen",
-                "55:37 (no vid)",
+                "55:37",
                 "https://imgur.com/a/kcGUARD",
                 "Yes"
             ],
@@ -5946,6 +6098,36 @@
                 "45:42 (touhoe accidentally gaslit appels into cheating)",
                 "https://youtu.be/Nd6uzN3AohU",
                 "Yes"
+            ]
+        ]
+    },
+    {
+        "name": "map31",
+        "map_data": {
+            "name": "It Takes Part of You to Tango",
+            "authors": [
+                {
+                    "name": "GlerG",
+                    "discord": "glerg",
+                    "avatarurl": "Assets/map_image/glerg.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map31.png",
+            "gamebananaurl": "https://gamebanana.com/mods/544933",
+            "description": "Ranking Criteria: Lowest Deaths",
+            "difficulty": "High Expert (Advanced Tech)",
+            "releaseAt": 1728669600,
+            "isCurrent": true,
+            "order": 31
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
             ]
         ]
     },
@@ -9027,7 +9209,7 @@
             "name": "Reality's Building Blocks (Checkpoint 2 to End)",
             "authors": [
                 {
-                    "name": "MateuszKus",
+                    "name": "MateuszKus (evil)",
                     "discord": "mateuszkus",
                     "avatarurl": "Assets/map_image/mateusz2.png"
                 }
@@ -9037,17 +9219,145 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Mid Expert",
             "releaseAt": 1728064800,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 30
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your time?",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "10/8/2024 4:44:42",
+                "Parrot Dash",
+                "Parrot Dash",
+                "27:37",
+                "https://www.twitch.tv/videos/2272089473",
+                "Yes"
+            ],
+            [
+                "10/6/2024 12:01:17",
+                "Cookie",
+                "catastrophic_cookie",
+                "44:42",
+                "https://youtu.be/nWNsbFQrtD4",
+                "Yes"
+            ],
+            [
+                "10/7/2024 13:39:56",
+                "Appels",
+                "appelsappelsappels",
+                "46:39",
+                "https://youtu.be/cZHzHYuD1Yk",
+                "Yes"
+            ],
+            [
+                "10/4/2024 19:16:03",
+                "Guest_",
+                "Guest_",
+                "20:33 (no vid)",
+                "https://imgur.com/a/LHU9Bja",
+                "Yes"
+            ],
+            [
+                "10/8/2024 4:44:42",
+                "Bread",
+                "Bread",
+                "48:00",
+                "https://prnt.sc/s2MKViUD2Khk",
+                "Yes"
+            ],
+            [
+                "10/6/2024 4:45:33",
+                "Player696103392",
+                "Player696103392",
+                "49:30",
+                "https://imgur.com/a/gOIof56",
+                "Yes"
+            ],
+            [
+                "10/7/2024 13:05:11",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "49:30",
+                "https://www.youtube.com/watch?v=rZhhFKmYf84",
+                "Yes"
+            ],
+            [
+                "10/8/2024 4:44:42",
+                "DuckUwU",
+                "DuckUwU",
+                "55:09",
+                "https://imgur.com/q6yVLsH",
+                "Yes"
+            ],
+            [
+                "10/4/2024 12:58:56",
+                "juckter",
+                "juckter",
+                "56:42",
+                "https://prnt.sc/rM4uw8XybcPi",
+                "Yes"
+            ],
+            [
+                "10/6/2024 8:08:28",
+                "AmberBolt",
+                "amber_bolt",
+                "1:00:26",
+                "https://youtu.be/b2APMJRKr2M",
+                "Yes"
+            ],
+            [
+                "10/4/2024 15:52:33",
+                "GlerG",
+                "glerg",
+                "1:21:56",
+                "https://imgur.com/a/pPJbaVB",
+                "Yes"
+            ],
+            [
+                "10/4/2024 13:59:32",
+                "Toby",
+                "tc_28683",
+                "1:25:06",
+                "https://imgur.com/a/WBVK46O",
+                "Yes"
+            ],
+            [
+                "10/5/2024 18:01:52",
+                "Pixel_Yosh",
+                "Pixel_Yosh",
+                "1:28:30",
+                "https://imgur.com/trsC0xx",
+                "Yes"
+            ],
+            [
+                "10/5/2024 12:05:01",
+                "Keehle",
+                "keehle",
+                "1:39:00",
+                "https://imgur.com/a/xTtJpTJ",
+                "Yes"
+            ],
+            [
+                "10/4/2024 14:36:26",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "1:40:50",
+                "https://imgur.com/a/ZcvUhzX",
+                "Yes"
+            ],
+            [
+                "10/6/2024 14:40:49",
+                "Wojowu",
+                "wojowu",
+                "1:42:45",
+                "https://prnt.sc/NgkrlI7KbFUW",
+                "Yes"
             ]
         ]
     },

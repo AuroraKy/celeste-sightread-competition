@@ -2,7 +2,7 @@
   "name": "Reality's Building Blocks (Checkpoint 2 to End)",
   "authors": [
     {
-      "name": "MateuszKus",
+      "name": "MateuszKus (evil)",
       "discord": "mateuszkus",
       "avatarurl": "Assets/map_image/mateusz2.png"
     }
@@ -12,6 +12,6 @@
   "description": "Ranking Criteria: Lowest Time",
   "difficulty": "Mid Expert",
   "releaseAt": 1728064800,
-  "isCurrent": true,
+  "isCurrent": false,
   "order": 30
 }

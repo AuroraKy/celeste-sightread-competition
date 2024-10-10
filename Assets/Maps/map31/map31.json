@@ -1,0 +1,17 @@
+{
+  "name": "It Takes Part of You to Tango",
+  "authors": [
+    {
+      "name": "GlerG",
+      "discord": "glerg",
+      "avatarurl": "Assets/map_image/glerg.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map31.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/544933",
+  "description": "Ranking Criteria: Lowest Deaths",
+  "difficulty": "High Expert (Advanced Tech)",
+  "releaseAt": 1728669600,
+  "isCurrent": true,
+  "order": 31
+}
