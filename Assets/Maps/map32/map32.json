@@ -1,0 +1,17 @@
+{
+  "name": "The Magnificent Mirror Casino",
+  "authors": [
+    {
+      "name": "Quinnigan",
+      "discord": "quinnigan_",
+      "avatarurl": "Assets/map_image/quinnigan.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map32.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/548958",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Low Expert",
+  "releaseAt": 1729274400,
+  "isCurrent": true,
+  "order": 32
+}

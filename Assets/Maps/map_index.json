@@ -398,6 +398,36 @@
         ]
     },
     {
+        "name": "map32",
+        "map_data": {
+            "name": "The Magnificent Mirror Casino",
+            "authors": [
+                {
+                    "name": "Quinnigan",
+                    "discord": "quinnigan_",
+                    "avatarurl": "Assets/map_image/quinnigan.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map32.png",
+            "gamebananaurl": "https://gamebanana.com/mods/548958",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Low Expert",
+            "releaseAt": 1729274400,
+            "isCurrent": true,
+            "order": 32
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
+            ]
+        ]
+    },
+    {
         "name": "map6",
         "map_data": {
             "name": "Sadness Underhang",
@@ -6117,17 +6147,145 @@
             "description": "Ranking Criteria: Lowest Deaths",
             "difficulty": "High Expert (Advanced Tech)",
             "releaseAt": 1728669600,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 31
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "How many deaths did you get?",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "10/12/2024 0:03:44",
+                "Cookie",
+                "catastrophic_cookie",
+                "143",
+                "https://youtu.be/DlFFGv4k-Qc ",
+                "Yes"
+            ],
+            [
+                "10/13/2024 14:08:59",
+                "Appels",
+                "appelsappelsappels",
+                "148",
+                "https://youtu.be/7pjOXREADsM",
+                "Yes"
+            ],
+            [
+                "10/16/2024 11:40:44",
+                "Cr\u00e8meBr\u00fbl\u00e9e",
+                "cremebrulees",
+                "235",
+                "https://imgur.com/a/celeste-sightreading-competition-AvOiFAl",
+                "Yes"
+            ],
+            [
+                "10/12/2024 20:05:59",
+                "Guest_",
+                "Guest_",
+                "183 (no vid)",
+                "https://imgur.com/a/HMaAuX0",
+                "Yes"
+            ],
+            [
+                "10/16/2024 20:08:17",
+                "Parrot Dash",
+                "Parrot Dash",
+                "287",
+                "https://www.twitch.tv/videos/2278214007",
+                "Yes"
+            ],
+            [
+                "10/12/2024 9:42:45",
+                "Bread",
+                "Bread",
+                "295",
+                "https://prnt.sc/1Qg-mGbIG3Mf",
+                "Yes"
+            ],
+            [
+                "10/12/2024 10:12:41",
+                "unfandemcmillen",
+                "unfandemcmillen",
+                "310",
+                "https://imgur.com/a/uqO7dfa",
+                "Yes"
+            ],
+            [
+                "10/13/2024 3:18:51",
+                "juckter",
+                "juckter",
+                "315",
+                "https://prnt.sc/BunElffTXxr2",
+                "Yes"
+            ],
+            [
+                "10/12/2024 6:56:52",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "438",
+                "https://cdn.discordapp.com/attachments/1249796816254533665/1294387663197179965/SPOILER_20241011194906_1.jpg?ex=670b7cb3&is=670a2b33&hm=0c6a15f97c410a539ef41a02a2a99025c5a4b18db4a427fabb5c3db00457a494&",
+                "Yes"
+            ],
+            [
+                "10/14/2024 15:53:01",
+                "ProwriterX1",
+                "prowriterx1_90472",
+                "535",
+                "https://www.youtube.com/playlist?list=PLAreyC6noSIU-Olp8ITOEYOnVnbtsPsQL",
+                "Yes"
+            ],
+            [
+                "10/11/2024 20:22:06",
+                "NagKai",
+                "NagKai",
+                "726",
+                "https://discord.com/channels/912804360331874355/1249796816254533665/1294500150017785907",
+                "Yes"
+            ],
+            [
+                "10/16/2024 20:08:17",
+                "Goldenfaf",
+                "Goldenfaf",
+                "780",
+                "https://imgur.com/a/W0Ab0hd",
+                "Yes"
+            ],
+            [
+                "10/15/2024 15:48:42",
+                "Pixel_Yosh",
+                "Pixel_Yosh",
+                "799",
+                "https://imgur.com/KGoq8up",
+                "Yes"
+            ],
+            [
+                "10/12/2024 12:38:28",
+                "Player696103392",
+                "Player696103392",
+                "841",
+                "https://imgur.com/a/RNXGFL2",
+                "Yes"
+            ],
+            [
+                "10/14/2024 20:51:33",
+                "resverie",
+                "ditto_resverie",
+                "1455",
+                "https://imgur.com/a/T3h53cz",
+                "Yes"
+            ],
+            [
+                "10/12/2024 9:42:45",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "1838",
+                "https://imgur.com/a/pNrVhTr",
+                "Yes"
             ]
         ]
     },
