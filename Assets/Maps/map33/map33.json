@@ -1,0 +1,17 @@
+{
+  "name": "Marathon Mountain",
+  "authors": [
+    {
+      "name": "yakaki",
+      "discord": "yakaki",
+      "avatarurl": "Assets/map_image/yakaki.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map33.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/545242",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Beginner",
+  "releaseAt": 1729879200,
+  "isCurrent": true,
+  "order": 33
+}

@@ -1,0 +1,17 @@
+{
+  "name": "87.5%",
+  "authors": [
+    {
+      "name": "Sapphire_Xer0",
+      "discord": "sapphire_xer0",
+      "avatarurl": "Assets/map_image/sophie.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map33.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/545242",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Mid Grandmaster",
+  "releaseAt": 1729879200,
+  "isCurrent": true,
+  "order": 34
+}

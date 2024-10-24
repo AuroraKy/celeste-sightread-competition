@@ -413,17 +413,113 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Low Expert",
             "releaseAt": 1729274400,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 32
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your time? (view https://gamebanana.com/mods/548958 for more calculation instructions)",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "10/18/2024 18:23:49",
+                "Guest_",
+                "Guest_",
+                "33:19",
+                "https://imgur.com/a/3wy5SOK",
+                "Yes"
+            ],
+            [
+                "10/18/2024 12:31:30",
+                "Appels",
+                "appelsappelsappels",
+                "42:59",
+                "https://imgur.com/a/BBxCaNF",
+                "Yes"
+            ],
+            [
+                "10/21/2024 23:54:01",
+                "unfandemcmillen",
+                "unfandemcmillen",
+                "57:54",
+                "https://imgur.com/a/uD4Yldc",
+                "Yes"
+            ],
+            [
+                "10/21/2024 23:54:01",
+                "Tnt_go_bang",
+                "tntgobang",
+                "1:03:45",
+                "https://prnt.sc/7IxcTdk6zweQ",
+                "Yes"
+            ],
+            [
+                "10/21/2024 7:50:38",
+                "Player696103392",
+                "Player696103392",
+                "1:10:20",
+                "https://imgur.com/a/4WCloS1",
+                "Yes"
+            ],
+            [
+                "10/18/2024 13:02:20",
+                "Cookie",
+                "catastrophic_cookie",
+                "1:19:27",
+                "https://youtu.be/Wkp3x3A7kq4",
+                "Yes"
+            ],
+            [
+                "10/18/2024 12:57:34",
+                "juckter",
+                "juckter",
+                "1:26:40",
+                "https://prnt.sc/U3UTbr6PXQ9n",
+                "Yes"
+            ],
+            [
+                "10/18/2024 12:51:18",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "1:34:04",
+                "https://cdn.discordapp.com/attachments/1249796816254533665/1296923366254706728/20241018194526_1.jpg?ex=67140d82&is=6712bc02&hm=122dd18122f34f9b3ef54fea75e2f235e6340ddec2585f949aa3f2fcd62de5fa&",
+                "Yes"
+            ],
+            [
+                "10/21/2024 14:02:25",
+                "snakesphere",
+                "snakesphere",
+                "1:35:20",
+                "https://youtu.be/nUqNHJbqqCY",
+                "Yes"
+            ],
+            [
+                "10/21/2024 16:04:39",
+                "Toby",
+                "tc_28683",
+                "1:46:07",
+                "https://imgur.com/a/mjhIxwn",
+                "Yes"
+            ],
+            [
+                "10/21/2024 13:00:16",
+                "Snowdrop",
+                "Snowdrop_rikka",
+                "2:45:44",
+                "https://imgur.com/a/s5NfTp3",
+                "Yes"
+            ],
+            [
+                "10/21/2024 23:54:01",
+                "UKiran",
+                "ukiran",
+                "3:11:06",
+                "https://prnt.sc/GTUt9Sc_496V",
+                "Yes"
             ]
         ]
     },
@@ -2518,6 +2614,36 @@
         ]
     },
     {
+        "name": "map33",
+        "map_data": {
+            "name": "Marathon Mountain",
+            "authors": [
+                {
+                    "name": "yakaki",
+                    "discord": "yakaki",
+                    "avatarurl": "Assets/map_image/yakaki.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map33.png",
+            "gamebananaurl": "https://gamebanana.com/mods/545242",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Beginner",
+            "releaseAt": 1729879200,
+            "isCurrent": true,
+            "order": 33
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
+            ]
+        ]
+    },
+    {
         "name": "map9",
         "map_data": {
             "name": "Counterclockwise",
@@ -3120,6 +3246,36 @@
                 "3:11:15",
                 "https://imgur.com/gallery/csc-week6-counterclockwise-Fc4bILx",
                 "Yes"
+            ]
+        ]
+    },
+    {
+        "name": "map34",
+        "map_data": {
+            "name": "87.5%",
+            "authors": [
+                {
+                    "name": "Sapphire_Xer0",
+                    "discord": "sapphire_xer0",
+                    "avatarurl": "Assets/map_image/sophie.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map33.png",
+            "gamebananaurl": "https://gamebanana.com/mods/545242",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Mid Grandmaster",
+            "releaseAt": 1729879200,
+            "isCurrent": true,
+            "order": 34
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
             ]
         ]
     },
