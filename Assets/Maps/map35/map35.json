@@ -1,0 +1,17 @@
+{
+  "name": "Break Week (spooky edition)",
+  "authors": [
+    {
+      "name": "Happy Halloween!",
+      "discord": "halloweenlad31",
+      "avatarurl": "Assets/map_image/hallow.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map35.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/335176",
+  "description": "Ranking Criteria: Lowest Screams",
+  "difficulty": "Five Nights At Oshiro's",
+  "releaseAt": 1729879200,
+  "isCurrent": true,
+  "order": 35
+}
