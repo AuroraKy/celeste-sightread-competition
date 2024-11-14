@@ -15,7 +15,7 @@
             "description": "Ranking Criteria: Lowest Screams",
             "difficulty": "Five Nights At Oshiro's",
             "releaseAt": 1729879200,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 35
         },
         "csv_data": [
@@ -6704,6 +6704,36 @@
                 "1838",
                 "https://imgur.com/a/pNrVhTr",
                 "Yes"
+            ]
+        ]
+    },
+    {
+        "name": "map36",
+        "map_data": {
+            "name": "The Finale",
+            "authors": [
+                {
+                    "name": "Gsdncrdhtmwashmflmyt",
+                    "discord": "N/A",
+                    "avatarurl": "Assets/map_image/logo.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map36.png",
+            "gamebananaurl": "https://gamebanana.com/mods/335176",
+            "description": "Ranking Criteria: Lowest Time",
+            "difficulty": "Big Expert",
+            "releaseAt": 1731698100,
+            "isCurrent": true,
+            "order": 36
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
             ]
         ]
     },
