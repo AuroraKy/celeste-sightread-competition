@@ -1,0 +1,17 @@
+{
+  "name": "The Finale",
+  "authors": [
+    {
+      "name": "Gsdncrdhtmwashmflmyt",
+      "discord": "N/A",
+      "avatarurl": "Assets/map_image/logo.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map36.png", 
+  "gamebananaurl": "https://gamebanana.com/mods/335176",
+  "description": "Ranking Criteria: Lowest Time",
+  "difficulty": "Big Expert",
+  "releaseAt": 1731698100,
+  "isCurrent": true,
+  "order": 36
+}
