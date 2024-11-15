@@ -6710,7 +6710,7 @@
     {
         "name": "map36",
         "map_data": {
-            "name": "The Finale",
+            "name": "The Victory Lap",
             "authors": [
                 {
                     "name": "Gsdncrdhtmwashmflmyt",
@@ -6719,10 +6719,10 @@
                 }
             ],
             "imageurl": "Assets/map_image/map36.png",
-            "gamebananaurl": "https://gamebanana.com/mods/335176",
+            "gamebananaurl": "https://gamebanana.com/mods/555773",
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Big Expert",
-            "releaseAt": 1731698100,
+            "releaseAt": 1731697200,
             "isCurrent": true,
             "order": 36
         },
