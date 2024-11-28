@@ -1,0 +1,17 @@
+{
+  "name": "Awards Ceremony",
+  "authors": [
+    {
+      "name": "touhoe",
+      "discord": "touhoe",
+      "avatarurl": "Assets/map_image/logog.png"
+    }
+  ],
+  "imageurl": "Assets/map_image/map37.png", 
+  "gamebananaurl": "xxx",
+  "description": "Ranking Criteria: Most Fun",
+  "difficulty": "Cracked Humility",
+  "releaseAt": 1732906800,
+  "isCurrent": true,
+  "order": 37
+}

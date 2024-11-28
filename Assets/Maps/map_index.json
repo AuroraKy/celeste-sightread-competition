@@ -4016,7 +4016,7 @@
             "gamebananaurl": "https://gamebanana.com/mods/528891",
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Advanced",
-            "releaseAt": 1722016800,
+            "releaseAt": 1722016801,
             "isCurrent": false,
             "order": 11
         },
@@ -6723,17 +6723,89 @@
             "description": "Ranking Criteria: Lowest Time",
             "difficulty": "Big Expert",
             "releaseAt": 1731697200,
-            "isCurrent": true,
+            "isCurrent": false,
             "order": 36
         },
         "csv_data": [
             [
                 "Timestamp",
-                "What is your name?",
+                "What is your username?",
                 "What is your discord username?",
-                "What time/deaths did you get?",
-                "If you wish to rank top 3, you must have a video link.",
+                "What was your time? (view https://gamebanana.com/mods/555773 for more instructions)",
+                "Submit a link to your journal image or video here!",
                 "Do you solemnly swear that you cleared this blind?"
+            ],
+            [
+                "11/20/2024 12:58:30",
+                "Appels",
+                "appelsappelsappels",
+                "4:18:19",
+                "https://www.youtube.com/playlist?list=PLawalL_zhrPskZ3Qtt-9B9ThfDM_oFoxC",
+                "Yes"
+            ],
+            [
+                "11/16/2024 2:11:42",
+                "Guest_",
+                "Guest_",
+                "5:23:15",
+                "https://youtube.com/playlist?list=PLR63VmDdmhFAm2yR3HX0nJ8Gkx_bYXGcg&si=Af3Ix_3PPClc228d",
+                "Yes"
+            ],
+            [
+                "11/25/2024 18:01:01",
+                "Parrot Dash",
+                "parrotdash",
+                "5:34:20",
+                "https://prnt.sc/s1qX5Hc0YpuW",
+                "Yes"
+            ],
+            [
+                "11/16/2024 10:50:10",
+                "unfandemcmillen",
+                "unfandemcmillen",
+                "5:24:36 (no video)",
+                "https://imgur.com/a/Afe74CJ",
+                "Yes"
+            ],
+            [
+                "11/23/2024 13:14:01",
+                "Whiskeyjack",
+                "whiskeyjack3741",
+                "6:07:21",
+                "https://cdn.discordapp.com/attachments/1249796816254533665/1309982098702205108/SPOILER_20241123203910_1.jpg?ex=67438f66&is=67423de6&hm=42c4a6de9012b727b033bcf08f74d3d1d301e24157588cc83291da175baa0e63&",
+                "Yes"
+            ],
+            [
+                "11/23/2024 9:28:28",
+                "nonoji(\u306e\u306e\u5b57)",
+                "Non0ji",
+                "6:14:44",
+                "https://imgur.com/a/97CZeEV",
+                "Yes"
+            ],
+            [
+                "11/17/2024 9:10:08",
+                "Player696103392",
+                "Player696103392",
+                "6:33:16",
+                "https://imgur.com/a/MKadF5e",
+                "Yes"
+            ],
+            [
+                "11/19/2024 6:45:55",
+                "juckter",
+                "juckter",
+                "7:43:38",
+                "https://prnt.sc/khIdZjqaRymZ",
+                "Yes"
+            ],
+            [
+                "11/18/2024 16:35:34",
+                "Toby",
+                "tc_28683",
+                "9:27.53",
+                "https://imgur.com/a/N35q6M5",
+                "Yes"
             ]
         ]
     },
@@ -9806,6 +9878,36 @@
                 "7:40:51",
                 "https://imgur.com/gallery/csc-2-hold-grab-to-shmove-DPvhm8X",
                 "Yes"
+            ]
+        ]
+    },
+    {
+        "name": "map37",
+        "map_data": {
+            "name": "Awards Ceremony",
+            "authors": [
+                {
+                    "name": "touhoe",
+                    "discord": "touhoe",
+                    "avatarurl": "Assets/map_image/logog.png"
+                }
+            ],
+            "imageurl": "Assets/map_image/map37.png",
+            "gamebananaurl": "xxx",
+            "description": "Ranking Criteria: Most Fun",
+            "difficulty": "Cracked Humility",
+            "releaseAt": 1732906800,
+            "isCurrent": true,
+            "order": 37
+        },
+        "csv_data": [
+            [
+                "Timestamp",
+                "What is your name?",
+                "What is your discord username?",
+                "What time/deaths did you get?",
+                "If you wish to rank top 3, you must have a video link.",
+                "Do you solemnly swear that you cleared this blind?"
             ]
         ]
     },
